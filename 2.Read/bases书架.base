@@ -1,0 +1,110 @@
+filters:
+  and:
+    - or:
+        - file.hasTag("book")
+        - file.hasTag("movies")
+    - '!file.inFolder("10.Template")'
+formulas:
+  cover: link(封面)
+  用时: if(开始阅读 && 结束阅读, (date(结束阅读) - date(开始阅读)).days + " 天", "")
+  状态: if(阅读状态.contains("正在阅读"), "📖 在读", if(阅读状态.contains("已读完"), "✅ 读完", if(阅读状态.contains("未开始"), "📚 未开始", if(阅读状态.contains("未读完"), "⏸ 未读完", "—"))))
+properties:
+  file.name:
+    displayName: 标题
+  originalTitle:
+    displayName: 原标题
+  CNTitle:
+    displayName: 中文名
+  author:
+    displayName: 作者
+  scoreStar:
+    displayName: 评分星
+  score:
+    displayName: 豆瓣分
+  publishDate:
+    displayName: 出版
+  myRate:
+    displayName: 我的评分
+  totalPage:
+    displayName: 总页数
+  currentPage:
+    displayName: 当前页
+  formula.用时:
+    displayName: 用时
+  formula.状态:
+    displayName: 状态
+views:
+  - type: cards
+    name: 已读完
+    filters:
+      and:
+        - 阅读状态.contains("已读完")
+    order:
+      - file.name
+      - originalTitle
+      - author
+      - scoreStar
+      - score
+      - myRate
+      - 开始阅读
+      - 结束阅读
+      - formula.用时
+    sort:
+      - property: 结束阅读
+        direction: DESC
+    image: formula.cover
+    imageAspectRatio: 0.66
+    cardSize: 220
+    imageFit: contain
+  - type: cards
+    name: 正在阅读
+    filters:
+      and:
+        - 阅读状态.contains("正在阅读")
+    order:
+      - file.name
+      - originalTitle
+      - CNTitle
+      - author
+      - scoreStar
+      - score
+      - publishDate
+      - myRate
+      - totalPage
+      - currentPage
+      - 添加时间
+      - 开始阅读
+      - 结束阅读
+      - formula.用时
+    sort:
+      - property: 添加时间
+        direction: DESC
+    image: formula.cover
+    imageAspectRatio: 0.66
+    cardSize: 220
+    imageFit: contain
+  - type: table
+    name: 未开始
+    filters:
+      and:
+        - 阅读状态.contains("未开始")
+    order:
+      - file.name
+      - author
+      - totalPage
+      - publishDate
+      - 添加时间
+  - type: cards
+    name: 全部书影库
+    order:
+      - file.name
+      - formula.状态
+      - author
+      - score
+    sort:
+      - property: 添加时间
+        direction: DESC
+    image: formula.cover
+    imageAspectRatio: 0.66
+    cardSize: 180
+    imageFit: contain

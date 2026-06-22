@@ -1,0 +1,34 @@
+/* ============================================================
+   Bases 卡片视图：字体 / 行距 / 标签值并排
+   作用于所有 Bases 的卡片视图。改数值即可。
+   ============================================================ */
+
+.bases-cards-container {
+  /* 字段文字大小（默认 var(--font-smaller)，偏小）。调大改这里 */
+  --bases-cards-font-size: 14px;
+
+  /* 每行高度 = 行间距（默认 24px）。想更紧凑就调小，如 20px */
+  --bases-cards-line-height: 22px;
+}
+
+/* —— 标签 + 值 并排成一行（标题行除外）—— */
+.bases-cards-container .bases-cards-property:not(.mod-title) {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 6px;
+}
+
+/* 标签：不压缩，固定列宽让多行对齐（min-width 可调） */
+.bases-cards-container .bases-cards-property:not(.mod-title) .bases-cards-label {
+  flex: 0 0 auto;
+  min-width: 5em;
+  font-size: 0.85em;
+  opacity: 0.65;
+}
+
+/* 值：占满剩余宽度 */
+.bases-cards-container .bases-cards-property:not(.mod-title) .bases-cards-line {
+  flex: 1;
+  min-width: 0;
+}

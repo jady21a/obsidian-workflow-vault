@@ -1,0 +1,309 @@
+/*
+  Homepage multi-column palette
+  Scoped to homepage.md via `cssClass: homepage-dashboard`
+
+  Single adaptive scheme: every color is driven by a CSS variable.
+  - Light theme uses theme-aware defaults (Obsidian semantic variables).
+  - The `.theme-dark` block only overrides the VARIABLE VALUES to restore the
+    original dark palette — the actual rules are written once.
+*/
+
+.homepage-dashboard {
+  --hp-card-radius: 16px;
+  --hp-card-border-width: 1px;
+  --hp-card-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+
+  /* quick action buttons */
+  --hp-surface: var(--background-secondary);
+  --hp-surface-hover: var(--background-modifier-hover);
+  --hp-border: var(--background-modifier-border);
+  --hp-action-shadow: var(--hp-card-shadow);
+  --hp-action-hover-shadow: var(--hp-card-shadow);
+
+  /* primary (accent) button */
+  --hp-accent-bg: var(--interactive-accent);
+  --hp-accent-bg-hover: var(--interactive-accent-hover);
+  --hp-accent-border: var(--interactive-accent);
+  --hp-accent-border-hover: var(--interactive-accent-hover);
+  --hp-accent-text: var(--text-on-accent);
+
+  /* muted button */
+  --hp-muted-bg: var(--background-secondary);
+  --hp-muted-border: var(--background-modifier-border);
+
+  /* quick links row */
+  --hp-launch-border: var(--background-modifier-border);
+  --hp-separator: var(--text-faint);
+  --hp-link-hover: var(--text-accent);
+
+  /* callout cards: tinted by each card's own accent color (--callout-color) */
+  --hp-callout-tint: 0.1;
+  --hp-callout-tint-strong: 0.16;
+  --hp-callout-border-alpha: 0.42;
+  --hp-card-title-alpha: 0.04;
+}
+
+.homepage-dashboard .hp-quick-launch {
+  margin: 0.35rem 0 1.35rem;
+  padding: 0.2rem 0 0.4rem;
+  border-bottom: 1px solid var(--hp-launch-border);
+}
+
+.homepage-dashboard .hp-quick-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.homepage-dashboard .hp-quick-actions-top {
+  margin: 0 0 0.65rem;
+}
+
+.homepage-dashboard .hp-quick-action {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0.62rem 1.15rem;
+  border-radius: 13px;
+  border: 1px solid var(--hp-border);
+  background: var(--hp-surface);
+  color: var(--text-normal);
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  box-shadow: var(--hp-action-shadow);
+  transition: transform 140ms ease, background 140ms ease, border-color 140ms ease, box-shadow 140ms ease, color 140ms ease;
+}
+
+.homepage-dashboard .hp-quick-action:hover {
+  transform: translateY(-1px);
+  background: var(--hp-surface-hover);
+  border-color: rgba(var(--interactive-accent-rgb), 0.5);
+  box-shadow: var(--hp-action-hover-shadow);
+}
+
+.homepage-dashboard .hp-quick-action:active {
+  transform: translateY(0);
+}
+
+.homepage-dashboard .hp-quick-action:focus-visible,
+.homepage-dashboard .hp-quick-link:focus-visible {
+  outline: 2px solid var(--text-accent);
+  outline-offset: 2px;
+}
+
+.homepage-dashboard .hp-quick-action-accent {
+  background: var(--hp-accent-bg);
+  border-color: var(--hp-accent-border);
+  color: var(--hp-accent-text);
+}
+
+.homepage-dashboard .hp-quick-action-accent:hover {
+  background: var(--hp-accent-bg-hover);
+  border-color: var(--hp-accent-border-hover);
+  color: var(--hp-accent-text);
+}
+
+.homepage-dashboard .hp-quick-action-muted {
+  background: var(--hp-muted-bg);
+  border-color: var(--hp-muted-border);
+}
+
+.homepage-dashboard .hp-quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 0.35rem;
+  margin: 0;
+}
+
+.homepage-dashboard .hp-quick-link {
+  appearance: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: color-mix(in srgb, var(--text-accent) 58%, var(--text-normal) 42%);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  box-shadow: none;
+  transition: color 140ms ease;
+}
+
+.homepage-dashboard .hp-quick-link:hover {
+  color: var(--hp-link-hover);
+}
+
+.homepage-dashboard .hp-quick-link:not(:last-child)::after {
+  content: "|";
+  display: inline-block;
+  margin: 0 0.55rem;
+  color: var(--hp-separator);
+  text-decoration: none;
+}
+
+.homepage-dashboard div[data-callout="multi-column"].callout {
+  --callout-gap: 14px;
+}
+
+.homepage-dashboard div[data-callout="multi-column"].callout > .callout-content > .callout {
+  border-radius: var(--hp-card-radius);
+  border-width: var(--hp-card-border-width);
+  box-shadow: var(--hp-card-shadow);
+  overflow: hidden;
+  border-style: solid;
+}
+
+.homepage-dashboard div[data-callout="multi-column"].callout > .callout-content > .callout > .callout-title {
+  padding-top: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+
+.homepage-dashboard div[data-callout="multi-column"].callout > .callout-content > .callout > .callout-content {
+  padding-bottom: 0.9rem;
+}
+
+/* callout accent colors + icons */
+.homepage-dashboard .callout[data-callout="summary"] {
+  --callout-color: 59, 130, 246;
+  --callout-icon: lucide-folder-kanban;
+}
+
+.homepage-dashboard .callout[data-callout="note"] {
+  --callout-color: 16, 185, 129;
+  --callout-icon: lucide-file-clock;
+}
+
+.homepage-dashboard .callout[data-callout="todo"] {
+  --callout-color: 239, 68, 68;
+  --callout-icon: lucide-list-todo;
+}
+
+.homepage-dashboard .callout[data-callout="tip"] {
+  --callout-color: 14, 165, 233;
+  --callout-icon: lucide-book-open;
+}
+
+.homepage-dashboard .callout[data-callout="info"] {
+  --callout-color: 99, 102, 241;
+  --callout-icon: lucide-briefcase-business;
+}
+
+.homepage-dashboard .callout[data-callout="warning"] {
+  --callout-color: 245, 158, 11;
+  --callout-icon: lucide-sticky-note;
+}
+
+/* single card rule — colors come from the variables above (per theme) */
+.homepage-dashboard .callout[data-callout="summary"],
+.homepage-dashboard .callout[data-callout="note"],
+.homepage-dashboard .callout[data-callout="todo"],
+.homepage-dashboard .callout[data-callout="tip"],
+.homepage-dashboard .callout[data-callout="info"],
+.homepage-dashboard .callout[data-callout="warning"] {
+  background: linear-gradient(
+    180deg,
+    rgba(var(--callout-color), var(--hp-callout-tint)),
+    rgba(var(--callout-color), var(--hp-callout-tint-strong))
+  ) !important;
+  border-color: rgba(var(--callout-color), var(--hp-callout-border-alpha)) !important;
+}
+
+.homepage-dashboard .callout[data-callout="summary"] > .callout-title,
+.homepage-dashboard .callout[data-callout="note"] > .callout-title,
+.homepage-dashboard .callout[data-callout="todo"] > .callout-title,
+.homepage-dashboard .callout[data-callout="tip"] > .callout-title,
+.homepage-dashboard .callout[data-callout="info"] > .callout-title,
+.homepage-dashboard .callout[data-callout="warning"] > .callout-title {
+  background: rgba(var(--callout-color), var(--hp-card-title-alpha)) !important;
+}
+
+.homepage-dashboard .callout[data-callout="summary"] > .callout-content,
+.homepage-dashboard .callout[data-callout="note"] > .callout-content,
+.homepage-dashboard .callout[data-callout="todo"] > .callout-content,
+.homepage-dashboard .callout[data-callout="tip"] > .callout-content,
+.homepage-dashboard .callout[data-callout="info"] > .callout-content,
+.homepage-dashboard .callout[data-callout="warning"] > .callout-content {
+  background: transparent !important;
+}
+
+/* =========================================================================
+   DARK THEME — only override variable VALUES (original palette restored)
+   ========================================================================= */
+
+.theme-dark .homepage-dashboard {
+  --hp-card-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
+
+  --hp-surface: rgba(255, 255, 255, 0.05);
+  --hp-surface-hover: rgba(255, 255, 255, 0.05);
+  --hp-border: rgba(255, 255, 255, 0.1);
+  --hp-action-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  --hp-action-hover-shadow: 0 10px 22px rgba(0, 0, 0, 0.16);
+
+  --hp-accent-bg: linear-gradient(180deg, rgba(174, 221, 188, 0.96), rgba(147, 200, 163, 0.96));
+  --hp-accent-bg-hover: linear-gradient(180deg, rgba(184, 228, 197, 1), rgba(158, 208, 173, 1));
+  --hp-accent-border: rgba(186, 231, 198, 0.9);
+  --hp-accent-border-hover: rgba(186, 231, 198, 0.9);
+  --hp-accent-text: #1c3325;
+
+  --hp-muted-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.04));
+  --hp-muted-border: rgba(255, 255, 255, 0.12);
+
+  --hp-launch-border: rgba(255, 255, 255, 0.06);
+  --hp-separator: rgba(255, 255, 255, 0.32);
+  --hp-link-hover: #a9c8ff;
+}
+
+/* dark: per-card original gray gradients set directly on the callout */
+.theme-dark .homepage-dashboard .callout[data-callout="summary"] {
+  background: linear-gradient(180deg, rgba(50, 56, 62, 0.52), rgba(45, 50, 55, 0.68)) !important;
+  border-color: rgba(110, 124, 138, 0.24) !important;
+}
+
+.theme-dark .homepage-dashboard .callout[data-callout="note"] {
+  background: linear-gradient(180deg, rgba(49, 58, 55, 0.52), rgba(44, 51, 49, 0.68)) !important;
+  border-color: rgba(107, 125, 119, 0.24) !important;
+}
+
+.theme-dark .homepage-dashboard .callout[data-callout="todo"] {
+  background: linear-gradient(180deg, rgba(59, 53, 53, 0.52), rgba(51, 46, 46, 0.68)) !important;
+  border-color: rgba(130, 116, 116, 0.22) !important;
+}
+
+.theme-dark .homepage-dashboard .callout[data-callout="tip"] {
+  background: linear-gradient(180deg, rgba(49, 57, 59, 0.52), rgba(44, 50, 52, 0.68)) !important;
+  border-color: rgba(109, 123, 126, 0.22) !important;
+}
+
+.theme-dark .homepage-dashboard .callout[data-callout="info"] {
+  background: linear-gradient(180deg, rgba(53, 55, 63, 0.52), rgba(47, 48, 54, 0.68)) !important;
+  border-color: rgba(115, 119, 136, 0.22) !important;
+}
+
+.theme-dark .homepage-dashboard .callout[data-callout="warning"] {
+  background: linear-gradient(180deg, rgba(61, 57, 51, 0.52), rgba(53, 49, 45, 0.68)) !important;
+  border-color: rgba(130, 121, 108, 0.22) !important;
+}
+
+/* dark: original faint title bar */
+.theme-dark .homepage-dashboard .callout[data-callout="summary"] > .callout-title,
+.theme-dark .homepage-dashboard .callout[data-callout="note"] > .callout-title,
+.theme-dark .homepage-dashboard .callout[data-callout="todo"] > .callout-title,
+.theme-dark .homepage-dashboard .callout[data-callout="tip"] > .callout-title,
+.theme-dark .homepage-dashboard .callout[data-callout="info"] > .callout-title,
+.theme-dark .homepage-dashboard .callout[data-callout="warning"] > .callout-title {
+  background: rgba(255, 255, 255, 0.015) !important;
+}
+
+/* ── 首页「今日任务」：固定高度 + 内部滚动 ──
+   列表只占约 8 行高度，超出的在框内滚动；卡片大小恒定，
+   复选框可勾选、点任务名可跳转。:has() 精确命中含 Tasks 查询块的 callout。 */
+.homepage-dashboard .callout:has(.block-language-tasks) ul.contains-task-list {
+  max-height: 13em;
+  overflow-y: auto;
+}

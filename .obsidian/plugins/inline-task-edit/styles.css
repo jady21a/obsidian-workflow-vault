@@ -1,0 +1,17 @@
+.inline-task-edit-icon {
+  cursor: pointer;
+  margin-left: 0.45em;
+  font-size: 0.82em;
+  line-height: 1;
+  opacity: 0.32;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+}
+.inline-task-edit-icon:hover {
+  opacity: 1;
+}
+/* 鼠标移到任务行时整体更明显一点 */
+.cm-line:hover .inline-task-edit-icon {
+  opacity: 0.7;
+}

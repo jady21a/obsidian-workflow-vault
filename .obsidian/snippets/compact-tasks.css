@@ -1,0 +1,117 @@
+/* ── 点击任务名即可跳转到所在文件 ──
+   反向链接整段（含括号、文件名）用 font-size:0 隐藏，再把其中的 <a>
+   绝对定位铺满整行做成透明点击层，盖在任务名上。
+   复选框、编辑、推迟按钮提到上层，保持可点。 */
+.task-list-item {
+    position: relative;
+}
+.task-list-item .tasks-backlink {
+    font-size: 0 !important;     /* 隐藏 ( ) 和文件名文字 */
+    margin: 0 !important;
+}
+.task-list-item .tasks-backlink a {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+/* 复选框始终浮在点击层之上，保证能勾选 */
+.task-list-item > input[type="checkbox"],
+.task-list-item-checkbox {
+    position: relative;
+    z-index: 2;
+}
+
+/* 「编辑」/「推迟」按钮：默认隐藏，悬停时显示，且浮在点击层之上。
+   并用单色线性图标（Lucide 风格）替换默认的 📝 / ⏩ emoji，更契合 Minimal 主题。 */
+.tasks-edit,
+.tasks-postpone {
+    position: relative;
+    z-index: 2;
+    display: none !important;
+    width: 14px;
+    height: 1em;                      /* 跟随文字行高，基线正常 */
+    overflow: hidden;
+    text-indent: 120%;               /* 把原 emoji 推出视野（不改行度量） */
+    white-space: nowrap;
+    margin-left: 12px;
+    vertical-align: middle;
+}
+.task-list-item:hover .tasks-edit,
+.task-list-item:hover .tasks-postpone,
+li:hover > .tasks-edit,
+li:hover > .tasks-postpone {
+    display: inline-block !important;
+}
+/* 第二个图标（推迟）贴近第一个（编辑） */
+.tasks-postpone {
+    margin-left: 4px;
+}
+/* 图标本体：SVG 蒙版上色，平时浅灰、悬停变主题色 */
+.tasks-edit::after,
+.tasks-postpone::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);     /* 在元素内垂直居中，与文字对齐 */
+    text-indent: 0;
+    width: 14px;
+    height: 14px;
+    opacity: 0.55;
+    background-color: var(--text-normal);
+    transition: opacity 0.15s ease, background-color 0.15s ease, transform 0.12s ease;
+    -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+            mask-position: center;
+    -webkit-mask-size: contain;
+            mask-size: contain;
+}
+.tasks-edit:hover::after,
+.tasks-postpone:hover::after {
+    opacity: 1;
+    background-color: var(--interactive-accent);
+    transform: translateY(-50%) scale(1.2);   /* 悬停放大，更明显 */
+}
+/* 铅笔 = 编辑 */
+.tasks-edit::after {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 20h9'/%3E%3Cpath d='M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4Z'/%3E%3C/svg%3E");
+            mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 20h9'/%3E%3Cpath d='M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4Z'/%3E%3C/svg%3E");
+}
+/* 时钟 = 推迟（语义：改到以后） */
+.tasks-postpone::after {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpolyline points='12 6 12 12 16 14'/%3E%3C/svg%3E");
+            mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpolyline points='12 6 12 12 16 14'/%3E%3C/svg%3E");
+}
+
+/* 紧凑任务列表 */
+.dataview.task-list-item {
+    /* margin: 0  0 1px 20px !important; */
+    padding: 0 !important;
+    line-height: 1 !important;
+}
+
+
+/* 减少分组标题间距 */
+.dataview h4 {
+    margin: 2px 0 4px 0 !important;
+    font-size: 0.95em !important;
+}
+
+/* 减少整体查询块间距 */
+.block-language-dataview {
+    margin: 1px 0 !important;
+}
+
+/* 紧凑复选框 */
+/* .dataview input[type="checkbox"] {
+    margin-right: 8px !important;
+} */
+
+ul.contains-task-list {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+.dataview ul.contains-task-list {
+    margin: 8px 0 25px 0px !important;
+}

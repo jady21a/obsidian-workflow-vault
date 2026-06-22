@@ -1,0 +1,9 @@
+{
+  "id": "easy-delete-image",
+  "name": "Easy Delete Image",
+  "version": "0.0.1",
+  "minAppVersion": "1.4.0",
+  "description": "Click an image then press Delete/Backspace to remove it.",
+  "author": "jz",
+  "isDesktopOnly": false
+}

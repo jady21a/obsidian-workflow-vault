@@ -1,0 +1,18 @@
+{
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./assets",
+  "spellcheck": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": true,
+  "showLineNumber": true,
+  "trashOption": "local",
+  "readableLineLength": false
+}

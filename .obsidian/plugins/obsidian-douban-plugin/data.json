@@ -1,0 +1,85 @@
+{
+  "pictureBedFlag": false,
+  "pictureBedSetting": {
+    "url": "http://127.0.0.1:36677/upload"
+  },
+  "pictureBedType": "PicGo",
+  "arraySettings": [
+    {
+      "arrayName": "ArrayType1",
+      "arrayStart": "",
+      "arrayElementStart": "[[",
+      "arraySpiltV2": ",",
+      "arrayElementEnd": "]]",
+      "arrayEnd": "",
+      "index": 1
+    }
+  ],
+  "onlineSettingsFileName": "obsidian_douban_plugin_online_settings.json",
+  "onlineSettingsGistId": "35693f9ece9bd6abba98f94e81afde19",
+  "movieTemplateFile": "10.Template/影视.md",
+  "bookTemplateFile": "10.Template/book-ch.md",
+  "musicTemplateFile": "",
+  "noteTemplateFile": "",
+  "gameTemplateFile": "",
+  "teleplayTemplateFile": "10.Template/影视.md",
+  "searchUrl": "https://www.douban.com/search?q=",
+  "dateFormat": "yyyy-MM-DD",
+  "timeFormat": "HH:mm:ss",
+  "arrayStart": "",
+  "arrayElementStart": "\\n  - ",
+  "arraySpiltV2": "",
+  "arrayElementEnd": "",
+  "arrayEnd": "",
+  "personNameMode": "CH_EN",
+  "dataFilePath": "2.Read/douban",
+  "dataFileNamePath": "/{{type}}/{{title}}",
+  "statusBar": true,
+  "debugMode": true,
+  "customProperties": [
+    {
+      "name": "myType",
+      "value": "movie",
+      "field": "movie"
+    },
+    {
+      "name": "myType",
+      "value": "book",
+      "field": "book"
+    },
+    {
+      "name": "myType",
+      "value": "music",
+      "field": "music"
+    },
+    {
+      "name": "myType",
+      "value": "note",
+      "field": "note"
+    },
+    {
+      "name": "myType",
+      "value": "game",
+      "field": "game"
+    },
+    {
+      "name": "myType",
+      "value": "teleplay",
+      "field": "teleplay"
+    }
+  ],
+  "loginCookiesContent": "",
+  "loginHeadersContent": "",
+  "cacheImage": true,
+  "cacheHighQuantityImage": true,
+  "attachmentPath": "2.Read/douban/0_dimage/",
+  "attachmentFileName": "{{title}}",
+  "syncHandledDataArray": [],
+  "scoreSetting": {
+    "starFull": "⭐",
+    "starEmpty": "☆",
+    "displayStarEmpty": true,
+    "maxStar": 5
+  },
+  "searchDefaultType": "all"
+}

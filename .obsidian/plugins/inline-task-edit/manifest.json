@@ -1,0 +1,9 @@
+{
+  "id": "inline-task-edit",
+  "name": "Inline Task Edit Icon",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "在编辑器(Live Preview/源码)的任务行尾显示可点的 📝,点击打开 Tasks 的 Edit Task 弹窗。默认仅 5.todo/scheduled/ 下生效。",
+  "author": "jz",
+  "isDesktopOnly": false
+}

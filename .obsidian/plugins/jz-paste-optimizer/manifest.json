@@ -1,0 +1,10 @@
+{
+  "id": "paste-optimizer",
+  "name": "Paste Optimizer",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "优化粘贴体验：去除列表空行、清理 Books 版权信息",
+  "author": "jz",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

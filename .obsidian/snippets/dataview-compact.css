@@ -1,0 +1,10 @@
+/* 紧凑 Dataview 表格行间距 */
+
+
+.dataview.table-view-table tbody tr {
+    line-height: 1.2;
+}
+
+.dataview.table-view-table td {
+    padding: 3px 8px !important;
+}

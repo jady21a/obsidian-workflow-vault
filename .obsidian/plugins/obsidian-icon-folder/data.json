@@ -1,0 +1,77 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiAirplay",
+      "LiAmbulance",
+      "LiPenSquare",
+      "LiNotebookPen",
+      "LiBookOpenText",
+      "📚",
+      "LiPenTool",
+      "LiAlignHorizontalDistributeStart",
+      "LiTemplaterIcon"
+    ],
+    "recentlyUsedIconsSize": 9,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": true,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "2.Read": {
+    "iconName": "LiBookOpenText",
+    "iconColor": "#db2929"
+  },
+  "11.Excalidraw": {
+    "iconName": "LiPenTool",
+    "iconColor": "#e700eb"
+  },
+  "3.learn": {
+    "iconName": "LiNotebookPen",
+    "iconColor": "#e69100"
+  },
+  "10.Template": {
+    "iconName": "LiAlignHorizontalDistributeStart",
+    "iconColor": "#9900ff"
+  },
+  "4.Projects": {
+    "iconName": "LiAsteriskSquare",
+    "iconColor": "#e5f231"
+  },
+  "5.todo": {
+    "iconName": "LiListTodo",
+    "iconColor": "#00ff04"
+  },
+  "9.备忘": {
+    "iconName": "LiPenSquare",
+    "iconColor": "#6400fa"
+  },
+  "12.skills": {
+    "iconName": "LiAirplay",
+    "iconColor": "#bd0579"
+  },
+  "6.personal": {
+    "iconName": "LiPersonStanding",
+    "iconColor": "#00a388"
+  }
+}

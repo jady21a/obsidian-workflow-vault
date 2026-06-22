@@ -1,0 +1,12 @@
+{
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "MCL Multi Column",
+    "dataview-compact",
+    "homepage-columns",
+    "MCL Gallery Cards",
+    "bases-cards-tweak",
+    "compact-tasks"
+  ]
+}

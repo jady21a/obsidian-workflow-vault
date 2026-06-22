@@ -1,0 +1,51 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "10.Template",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "4.Projects/I.projects",
+      "template": "10.Template/projects/project- template.md"
+    },
+    {
+      "folder": "4.Projects/II.tasks",
+      "template": "10.Template/projects/task - template.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "10.Template/projects/project- template.md",
+    "10.Template/projects/task - template.md",
+    "10.Template/projects/try.md",
+    "10.Template/book&movie/book-ch.md",
+    "10.Template/book&movie/movie-ch.md",
+    "10.Template/todo/daily.md",
+    "10.Template/todo/weekly.md",
+    "10.Template/阅读/复习.md",
+    "10.Template/想法验证模版.md"
+  ],
+  "startup_templates": [
+    "",
+    ""
+  ],
+  "intellisense_render": 1
+}
