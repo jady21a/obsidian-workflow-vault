@@ -2,10 +2,12 @@
 .DS_Store
 .trash/
 
-# ── Obsidian 个人状态(布局/光标/缓存,不该公开,clone 后会自动重建) ──
+# ── Obsidian 个人状态(布局/光标/缓存/统计,不该公开,clone 后会自动重建) ──
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
+.obsidian/vault-stats.json
+.obsidian/plugins/remember-cursor-position/cursor-positions.json
 
 # ── 插件个人数据 data.json(含抓取缓存/个人配置,无需随模板分发) ──
 # 说明:删掉后 clone 的人首次用该插件回到默认设置即可,不影响 demo 运行。
