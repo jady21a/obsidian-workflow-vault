@@ -2946,39 +2946,6 @@ border-radius: 8px;
 font-size: 0.85em;
 color: var(--text-muted);
 }
-.modal-container {
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-z-index: 1000;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-.modal-bg {
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-background: rgba(0, 0, 0, 0.5);
-}
-
-.modal {
-position: relative;
-background: var(--background-primary);
-border-radius: 8px;
-padding: 20px;
-max-width: 500px;
-width: 90%;
-max-height: 80vh;
-overflow-y: auto;
-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-}
-
 .modal-title {
 font-size: 1.5em;
 font-weight: 600;

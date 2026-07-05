@@ -15,5 +15,5 @@ AND scheduled < date(today)
 - [ ] test  [scheduled:: 2026-05-13]
 - [x] test14  [scheduled:: 2026-05-14] [completion:: 2026-05-15]
 - [ ] 演示  [scheduled:: 2026-05-31]
-- [ ] 示例
+- [ ] 示例 [scheduled:: 2026-06-26]
 

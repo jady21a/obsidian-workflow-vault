@@ -1,4 +1,7 @@
-
+---
+cssclasses:
+  - centered
+---
 
 # 📚 这是一个「打开即用」的 Obsidian 模板库
 
@@ -30,7 +33,7 @@
 
 本仓库已内置大部分我经常使用的插件（位于 `.obsidian/plugins/`）
 
-**核心必需**（缺了对应页面会失效）
+### **核心必需**（缺了对应页面会失效）
 
 - **Dataview** — 表格 / 列表 / 统计视图，全库 160+ 处依赖（项目仪表盘、书架、观影库、统计）
 - **Templater** — 模板引擎，新建项目 / 任务自动套模板（`10.Template/` 下的 `project- template`、`task - template` 等）
@@ -49,7 +52,7 @@
 > 三者模板已就绪（`10.Template/book&movie/`），不装也能手动填写字段, 但是一键导入更快。
 
 
-**其他插件**（体验增强 / 个人偏好，不影响示例运行，在「设置 → 第三方插件」中按需启用）
+### **其他插件**（体验增强 / 个人偏好，不影响示例运行，在「设置 → 第三方插件」中按需启用）
 
 - **Excalidraw** / **Mindmap NextGen** — 手绘白板 / 思维导图
 - **Quiet Outline** — 大纲增强
@@ -60,11 +63,11 @@
 - **Title Serial Number** — 标题自动编号
 - **Clear Unused Images** — 清理无引用的图片
 
-**自研插件**（按需启用）
+### **自研插件**（按需启用）
 
 - **Learning System**（`learning-system`）— 间隔复习相关的插件，已上架社区插件,但是后面想增加mindmap功能,目前仍在持续完善中
 - **Paste Optimizer**（`jz-paste-optimizer`）— 优化粘贴：自动去除列表多余空行、清理从 Apple Books 复制来的版权信息
-- **Inline Task Edit Icon**（`inline-task-edit`）— 在任务行尾显示可点的 📅,点击弹出日期选择器,直接修改该行的 `[scheduled:: …]` 日期写回(不用打开完整编辑窗)。默认只在 `5.todo/scheduled/` 下生效
+- **Inline Task Edit Icon**（`inline-task-edit`）— 在任务行尾显示可点的 📅,点击弹出日期选择器,直接修改该行的 [[schedule-task]] 日期写回(不用打开完整编辑窗)。默认只在 `5.todo/scheduled/` 下生效
 - **Easy Delete Image**（`easy-delete-image`）— 删图更省事:在笔记里单击一张图片(图片会高亮),再按 `Delete` / `Backspace`,就会把对应的图片引用整行从正文里删掉,省去手动在文本里找那一行选中删。可与上面的 **Clear Unused Images** 搭配:先删引用,再清理无引用的图片文件
 
 
@@ -143,6 +146,10 @@
 | Better Word Count                                                  | Luke Leppan                                    | https://obsidian.md/plugins?id=better-word-count                   |
 
 > 各插件的更新请到 Obsidian「设置 → 第三方插件」自行升级；本库内置版本只为开箱即用，不代表最新。
+
+## 📄 许可协议
+
+本仓库基于 [MIT License](LICENSE) 开源，欢迎自由使用、修改和分发。各内置插件版权归其各自作者所有。
 
 
 

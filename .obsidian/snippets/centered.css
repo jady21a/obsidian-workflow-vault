@@ -1,0 +1,14 @@
+/* 默认全宽,给 cssclasses: centered 的笔记限宽居中 */
+/* 用法:在笔记 frontmatter 加:
+---
+cssclasses:
+  - centered
+---
+*/
+
+.centered.markdown-source-view.mod-cm6 .cm-content,
+.centered.markdown-preview-view .markdown-preview-sizer {
+  max-width: 800px !important;   /* 想多宽改这里 */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
