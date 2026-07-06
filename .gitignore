@@ -6,7 +6,7 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
-.obsidian/vault-stats.json
+# vault-stats.json 随演示库分发，供首页字数热力图开箱即显示真实数据（非隐私，纯 demo 统计）
 .obsidian/file-recovery.json
 .obsidian/plugins/remember-cursor-position/cursor-positions.json
 

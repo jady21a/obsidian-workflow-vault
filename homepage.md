@@ -167,8 +167,15 @@ cellStyle:
 
 ```dataviewjs
 // === Contribution Graph 版字数热力图（试看；不好看删掉本块即可回退）===
-const jsonString = await app.vault.adapter.read(".obsidian/vault-stats.json");
-const history = JSON.parse(jsonString).history;
+// 数据来自 Better Word Count 插件生成的 .obsidian/vault-stats.json（已随本演示库分发）。
+// 万一该文件缺失（如被手动删除），静默跳过本块，避免首页弹出报错。
+let history = {};
+try {
+    const jsonString = await app.vault.adapter.read(".obsidian/vault-stats.json");
+    history = JSON.parse(jsonString).history || {};
+} catch (e) {
+    return;
+}
 const data = Object.entries(history).map(([date, v]) => ({
     date,
     value: (v && v.words) || 0,
