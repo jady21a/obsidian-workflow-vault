@@ -14,5 +14,8 @@
   "showInlineTitle": true,
   "showLineNumber": true,
   "trashOption": "local",
-  "readableLineLength": false
+  "readableLineLength": false,
+  "userIgnoreFilters": [
+    "CLAUDE.md"
+  ]
 }
