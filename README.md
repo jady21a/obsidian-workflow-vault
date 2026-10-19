@@ -47,7 +47,7 @@ cssclasses:
 - **Book Search** — 搜书名自动抓书籍信息(首页「New Book」)
 - **Media DB** — 搜片名自动抓影视信息(首页「New Movie」，需填 OMDb Key)
 - **豆瓣** — 豆瓣条目抓取(book / movie / teleplay)
-- **Bases**（核心插件，默认开启）— `2.Read/bases书架.base` 卡片视图
+- **Bases**（核心插件，默认开启）— `2.Read/bases图书馆.base`（在读 / 已读 / 待读 / 未读完 / 概览 / 年度书单）、`2.Read/bases影视库.base`（在看 / 待看 / 已看 / 弃剧 / 片单 / 口味对照 / 按年代）两个卡片库，卡片视图靠下方自研插件 **Editable Cards** 渲染
 
 > 三者模板已就绪（`10.Template/book&movie/`），不装也能手动填写字段, 但是一键导入更快。
 
@@ -68,6 +68,7 @@ cssclasses:
 - **Learning System**（`learning-system`）— 间隔复习相关的插件，已上架社区插件,但是后面想增加mindmap功能,目前仍在持续完善中
 - **Paste Optimizer**（`jz-paste-optimizer`）— 优化粘贴：自动去除列表多余空行、清理从 Apple Books 复制来的版权信息
 - **Inline Task Edit Icon**（`inline-task-edit`）— 在任务行尾显示可点的 📅,点击弹出日期选择器,直接修改该行的 [[schedule-task]] 日期写回(不用打开完整编辑窗)。默认只在 `5.todo/scheduled/` 下生效
+- **Editable Cards (Bases)**（`editable-cards`）— 给 Bases 加一种卡片视图 `editable-cards`:卡片上的 frontmatter 字段(作者、阅读状态、当前页、评分…)直接点击原地改,回车写回笔记,不用点进去;封面和标题点击仍是打开笔记。图书馆 / 影视库的卡片视图都用它,没启用的话这些视图会显示不出来(表格视图不受影响)
 - **Easy Delete Image**（`easy-delete-image`）— 删图更省事:在笔记里单击一张图片(图片会高亮),再按 `Delete` / `Backspace`,就会把对应的图片引用整行从正文里删掉,省去手动在文本里找那一行选中删。可与上面的 **Clear Unused Images** 搭配:先删引用,再清理无引用的图片文件
 
 

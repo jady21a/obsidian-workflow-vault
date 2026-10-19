@@ -1,0 +1,207 @@
+filters:
+  and:
+    - file.hasTag("movies")
+    - '!file.inFolder("10.Template")'
+formulas:
+  状态: if(state.contains("已看"), "已看", if(state.contains("正在观看"), "在看", if(state.contains("弃剧"), "弃剧", "待看")))
+  媒介: if(type == "movie", "电影", if(type == "teleplay" || type == "series", "剧集", "其他"))
+  豆瓣: if(score, number(score), "")
+  我的: if(myRating, number(myRating), "")
+  口味差: if(myRating && score, (number(myRating) - number(score)).round(1), "")
+  年份: if(datePublished, date(datePublished).year, "")
+  年代: if(datePublished, ((date(datePublished).year / 10).floor() * 10).toString() + "s", "")
+  题材: if(genre, list(genre).slice(0, 3).join(" · "), "")
+  导演: if(director, list(director).slice(0, 2).join(" / "), "")
+  地区: if(country, list(country).slice(0, 2).join(" / "), "")
+  记录日: if(结束时间, 结束时间, 添加时间)
+properties:
+  file.name:
+    displayName: 片名
+  myRating:
+    displayName: 我的评分
+  state:
+    displayName: 状态标记
+  添加时间:
+    displayName: 添加
+  formula.状态:
+    displayName: 状态
+  formula.媒介:
+    displayName: 媒介
+  formula.豆瓣:
+    displayName: 豆瓣
+  formula.我的:
+    displayName: 我的
+  formula.口味差:
+    displayName: 我-豆瓣
+  formula.年份:
+    displayName: 年份
+  formula.年代:
+    displayName: 年代
+  formula.题材:
+    displayName: 题材
+  formula.导演:
+    displayName: 导演
+  formula.地区:
+    displayName: 地区
+views:
+  - type: editable-cards
+    name: 在看
+    filters:
+      and:
+        - formula.状态 == "在看"
+    order:
+      - file.name
+      - formula.媒介
+      - formula.题材
+      - formula.导演
+      - formula.豆瓣
+      - formula.地区
+      - formula.年份
+      - state
+    sort:
+      - property: 开始时间
+        direction: DESC
+      - property: 添加时间
+        direction: DESC
+    image: note.封面
+    imageAspectRatio: 0.7
+    cardSize: 200
+    imageFit: contain
+  - type: editable-cards
+    name: 待看
+    filters:
+      and:
+        - formula.状态 == "待看"
+    order:
+      - file.name
+      - formula.媒介
+      - formula.题材
+      - formula.导演
+      - formula.豆瓣
+      - formula.地区
+      - formula.年份
+    sort:
+      - property: formula.豆瓣
+        direction: DESC
+    image: note.封面
+    imageAspectRatio: 0.7
+    cardSize: 180
+    imageFit: contain
+  - type: editable-cards
+    name: 已看
+    filters:
+      and:
+        - formula.状态 == "已看"
+    order:
+      - file.name
+      - formula.媒介
+      - formula.题材
+      - formula.导演
+      - formula.豆瓣
+      - formula.地区
+      - formula.年份
+      - myRating
+    sort:
+      - property: formula.记录日
+        direction: DESC
+    image: note.封面
+    imageAspectRatio: 0.7
+    cardSize: 180
+    imageFit: contain
+  - type: editable-cards
+    name: 弃剧
+    filters:
+      and:
+        - formula.状态 == "弃剧"
+    order:
+      - file.name
+      - formula.媒介
+      - formula.题材
+      - formula.导演
+      - formula.豆瓣
+      - formula.地区
+      - formula.年份
+    sort:
+      - property: 添加时间
+        direction: DESC
+    image: note.封面
+    imageAspectRatio: 0.7
+    cardSize: 180
+    imageFit: contain
+  - type: table
+    name: 片单
+    groupBy:
+      property: formula.状态
+      direction: ASC
+    order:
+      - file.name
+      - formula.媒介
+      - formula.年份
+      - formula.题材
+      - formula.导演
+      - formula.地区
+      - formula.豆瓣
+      - formula.我的
+      - formula.口味差
+      - 添加时间
+    sort:
+      - property: formula.豆瓣
+        direction: DESC
+    summaries:
+      file.name: Filled
+      formula.豆瓣: Average
+      formula.我的: Average
+      formula.口味差: Average
+  - type: table
+    name: 口味对照
+    filters:
+      and:
+        - myRating
+    order:
+      - file.name
+      - formula.豆瓣
+      - formula.我的
+      - formula.口味差
+      - formula.题材
+      - formula.导演
+    sort:
+      - property: formula.口味差
+        direction: DESC
+    summaries:
+      formula.口味差: Average
+  - type: editable-cards
+    name: 按年代
+    groupBy:
+      property: formula.年代
+      direction: DESC
+    order:
+      - file.name
+      - formula.媒介
+      - formula.导演
+      - formula.豆瓣
+      - formula.地区
+    sort:
+      - property: datePublished
+        direction: DESC
+    image: note.封面
+    imageAspectRatio: 0.7
+    cardSize: 160
+    imageFit: contain
+  - type: editable-cards
+    name: 全部片库
+    order:
+      - file.name
+      - formula.媒介
+      - formula.状态
+      - formula.题材
+      - formula.导演
+      - formula.豆瓣
+      - formula.地区
+      - formula.年份
+    sort:
+      - property: formula.豆瓣
+        direction: DESC
+    image: note.封面
+    imageAspectRatio: 0.7
+    cardSize: 160
+    imageFit: contain

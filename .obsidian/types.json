@@ -64,6 +64,9 @@
     "a.书籍观点": "text",
     "b.自我总结": "text",
     "c.永久笔记": "text",
-    "total": "text"
+    "total": "text",
+    "genre": "multitext",
+    "director": "multitext",
+    "country": "multitext"
   }
 }

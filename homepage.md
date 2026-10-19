@@ -52,6 +52,8 @@ for (const action of actions) {
 >
 >> [!tip]+  阅读
 >>  ### #mcl/list-card
+>> - [[bases图书馆.base]]
+>> - [[bases影视库.base]]
 >> - [[书架]]
 >> - [[观影库]]
 >

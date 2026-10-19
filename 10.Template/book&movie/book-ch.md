@@ -1,11 +1,9 @@
 ---
 originalTitle: "{{originalTitle}}"
 title: "{{title}}"
-author: "{{author}}"
+author: {{author}}
 publishDate: "{{datePublished}}"
-阅读状态:
-  - 正在阅读
-  - 已读完
+阅读状态: [未开始]
 score: "{{score}}"
 scoreStar: "{{scoreStar}}"
 封面: "{{imageData.url}}"
@@ -16,7 +14,7 @@ tags:
   - book
 totalPage: "{{totalPage}}"
 currentPage:
-阅读进度:
+阅读方式:
 添加时间: <% tp.date.now("YYYY-MM-DD") %>
 开始阅读:
 结束阅读:

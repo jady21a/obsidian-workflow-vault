@@ -1,0 +1,9 @@
+{
+  "id": "editable-cards",
+  "name": "Editable Cards (Bases)",
+  "version": "0.1.0",
+  "minAppVersion": "1.10.0",
+  "description": "一个 Bases 视图类型:把条目渲染成卡片,卡片上的 frontmatter 字段可直接点击原地编辑,无弹窗,改动写回笔记 frontmatter。",
+  "author": "jz",
+  "isDesktopOnly": false
+}

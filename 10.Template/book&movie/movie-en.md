@@ -10,7 +10,6 @@ datePublished: "{{premiere}}"
 director: "{{director}}"
 state:
   - 待看
-  - 正在观看
 aliases:
 country:
 tags:
