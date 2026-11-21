@@ -1,11 +1,11 @@
 ---
 project: a1.第一个项目
 sub-project: 子项目-第一个task
-type:  sub-project
-seq: 001
+type: sub-project
+seq: 1
 date: 2026-06-26
-completion: 
-mood: 
+completion:
+mood:
 status:
   - 进行中
 tags:
@@ -13,6 +13,15 @@ tags:
 详情:
 check:
 try:
+  - 日期: 2026-08-10
+    完成度:
+    心情:
+    做了什么/没做的话为什么/想法:
+  - 日期: 2026-08-10
+    完成度:
+    心情:
+    做了什么/没做的话为什么/想法:
+
 ---
 
 

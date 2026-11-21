@@ -30,7 +30,7 @@ TABLE
   date as "日期",
   详情 as "详情"
 FROM "4.Projects/II.tasks"
-WHERE project = "<% projectName %>"
+WHERE project = this.project
 SORT seq DESC
 ```
 
@@ -51,19 +51,22 @@ WHERE !completed
 
 ### 进度统计
 ```dataviewjs
+// 通用:按当前页 frontmatter 的 project 字段过滤,可原样复制到任何项目页
 const tasks = dv.pages('"4.Projects/II.tasks"')
-  .where(p => p.project === "<% projectName %>");
+  .where(p => p.project === dv.current().project);
 
 const total = tasks.length;
-const avgCompletion = tasks.array()
-  .reduce((sum, t) => sum + (t.completion || 0), 0) / total;
+const scored = tasks.array().filter(t => typeof t.completion === "number");
+const avg = scored.length
+  ? (scored.reduce((s, t) => s + t.completion, 0) / scored.length).toFixed(1) + "/10"
+  : "—";
+
+const weekAgo = dv.date("now").minus({ days: 7 });
+const thisWeek = tasks.where(t => t.date && t.date >= weekAgo).length;
 
 dv.paragraph(`
 **总任务数**: ${total}  
-**平均完成度**: ${avgCompletion.toFixed(1)}/10  
-**本周任务**: ${tasks.where(t => {
-  const weekAgo = dv.date('now').minus({days: 7});
-  return t.date >= weekAgo;
-}).length}
+**平均完成度**: ${avg} (${scored.length}/${total} 已填)  
+**本周任务**: ${thisWeek}
 `);
 ```

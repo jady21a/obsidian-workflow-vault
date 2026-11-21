@@ -65,6 +65,7 @@
     "b.自我总结": "text",
     "c.永久笔记": "text",
     "total": "text",
+    "try": "text",
     "genre": "multitext",
     "director": "multitext",
     "country": "multitext"

@@ -1,0 +1,9 @@
+{
+  "id": "vault-updater",
+  "name": "Vault Updater",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "更新这个模板库:你没改过的文件换成新版,你改过的保留并把新版另存一份,你自己的笔记不碰。",
+  "author": "jady21a",
+  "isDesktopOnly": false
+}

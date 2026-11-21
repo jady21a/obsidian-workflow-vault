@@ -33,3 +33,10 @@
 
 # ── AI 协作约定(本地用,不随模板分发) ──
 CLAUDE.md
+
+# 字数热力图明细索引(.obsidian/scripts/wordheat_index.py 生成,本机会话数据,不入库)
+.obsidian/wordheat-index.*
+
+# ── 模板库更新的本地产物(备份 / 另存的新版,只属于这台机器) ──
+.vault-update/backup/
+_模板库更新/

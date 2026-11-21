@@ -65,6 +65,7 @@ cssclasses:
 
 ### **自研插件**（按需启用）
 
+- **Vault Updater**（`vault-updater`）— 模板库出新版时一键更新，不动你的笔记，用法见下方「后续更新」
 - **Learning System**（`learning-system`）— 间隔复习相关的插件，已上架社区插件,但是后面想增加mindmap功能,目前仍在持续完善中
 - **Paste Optimizer**（`jz-paste-optimizer`）— 优化粘贴：自动去除列表多余空行、清理从 Apple Books 复制来的版权信息
 - **Inline Task Edit Icon**（`inline-task-edit`）— 在任务行尾显示可点的 📅,点击弹出日期选择器,直接修改该行的 [[schedule-task]] 日期写回(不用打开完整编辑窗)。默认只在 `5.todo/scheduled/` 下生效
@@ -95,6 +96,27 @@ cssclasses:
 - `cmd+.`——插入try
 - `ption+↑`   打开今天日记
 完整列表见 [[9.备忘/示例-快捷键]]。
+
+## 后续更新(不用重新下载)
+
+模板库出新版时，在库里一键更新，你写的笔记不会被动到:
+
+1. 命令面板(`Cmd/Ctrl+P`)运行「检查模板库更新」。内置插件 Vault Updater 默认每天自动查一次，有新版只弹提示，不会自己改文件。
+2. 弹窗会列出每个文件怎么处理，看完点「开始更新」。
+3. 更新完重启一次 Obsidian。
+
+更新规则:
+
+- 你没改过的模板、说明页、插件：换成新版，旧版备份在 `.vault-update/backup/`
+- 你改过的文件：保留你的。如果新版也改了它，新版另存到 `_模板库更新/v版本号/`，对照着挑想要的改动，看完把这个文件夹删掉
+- `.obsidian` 里的设置：只补上新增的选项，你调过的设置不变
+- 你删掉的示例不会被加回来;你自己新建的笔记，更新时根本不读
+- 你已经在 Obsidian 里升级过的插件，不会被降级
+
+> [!note] v1.0.0 下载的用户
+> 那一版还没有更新插件，需要先手动装一次:到 GitHub 的 Releases 页下载 `vault-updater.zip`，解压到库里的 `.obsidian/plugins/` 文件夹，在「设置 → 第三方插件」里启用 Vault Updater，再按上面三步走。
+
+用 git clone 的也可以用这个插件，更新完自己 commit 一下即可。
 
 
 ## 结语

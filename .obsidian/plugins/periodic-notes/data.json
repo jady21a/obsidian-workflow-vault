@@ -10,7 +10,7 @@
   },
   "weekly": {
     "format": "gggg-[W]ww",
-    "template": "10.Template/todo/weekly",
+    "template": "",
     "folder": "5.todo/weeks",
     "enabled": true
   },
