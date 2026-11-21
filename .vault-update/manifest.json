@@ -1,0 +1,2034 @@
+{
+ "files": {
+  ".gitignore": {
+   "mode": "file",
+   "sha": "94f8543539e0764410808eac7db2e2ce1a9aed45"
+  },
+  ".obsidian/app.json": {
+   "mode": "json",
+   "sha": "abef2ddf5b567ce10e54c12827c04ea4cae64425"
+  },
+  ".obsidian/appearance.json": {
+   "mode": "json",
+   "sha": "159a1d5b4c46d91edc970cf89d95fc6f6761eddc"
+  },
+  ".obsidian/community-plugins.json": {
+   "mode": "json",
+   "sha": "fc84c193a01f04d897994b5c2c4863744beff56e"
+  },
+  ".obsidian/core-plugins.json": {
+   "mode": "json",
+   "sha": "e2342f1f0016c62214b690409a4614664737c160"
+  },
+  ".obsidian/daily-notes.json": {
+   "mode": "json",
+   "sha": "a2885f3b82a6dffba2fe8e4e729977632cc924f9"
+  },
+  ".obsidian/graph.json": {
+   "mode": "json",
+   "sha": "90a4623c049b2c9afc4382eb4cb981044af3ebd9"
+  },
+  ".obsidian/hotkeys.json": {
+   "mode": "seed",
+   "sha": "29ddc8cca58f009cb737609026b72a67ee2f6a6a"
+  },
+  ".obsidian/page-preview.json": {
+   "mode": "json",
+   "sha": "31a81360d787fa1b5c97d94fe7c125647d7a2a1d"
+  },
+  ".obsidian/plugins/better-word-count/main.js": {
+   "mode": "pkg",
+   "sha": "f31e9cceacce59a90cff5375d530fcf6956afb78"
+  },
+  ".obsidian/plugins/better-word-count/manifest.json": {
+   "mode": "pkg",
+   "sha": "67946aed1f4ce6ce90009404925d60d2afb53ea7"
+  },
+  ".obsidian/plugins/better-word-count/styles.css": {
+   "mode": "pkg",
+   "sha": "dc3503063e4b5d784dcc458d2fd27f5b80d47157"
+  },
+  ".obsidian/plugins/calendar/data.json": {
+   "mode": "json",
+   "sha": "b88b5ed2c062fb5e8d156f9777dafe789f301753"
+  },
+  ".obsidian/plugins/calendar/main.js": {
+   "mode": "pkg",
+   "sha": "ed6cea3c8bb17c873403edaeaa93706f2e68c65b"
+  },
+  ".obsidian/plugins/calendar/manifest.json": {
+   "mode": "pkg",
+   "sha": "028bfa5077de882fa2a945c4917dc08ccd04f906"
+  },
+  ".obsidian/plugins/contribution-graph/LICENSE": {
+   "mode": "file",
+   "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+  },
+  ".obsidian/plugins/contribution-graph/MODIFICATIONS.md": {
+   "mode": "file",
+   "sha": "dc4e187c3ce12a47ca5b11982590d29fa0f184ed"
+  },
+  ".obsidian/plugins/contribution-graph/main.js": {
+   "mode": "pkg",
+   "sha": "bebf903b587ff8bcb8b4b4835c8b3a549a4ab394"
+  },
+  ".obsidian/plugins/contribution-graph/manifest.json": {
+   "mode": "pkg",
+   "sha": "3c9b6b67bb332b746bdb36d9ac6e03c18bac83f5"
+  },
+  ".obsidian/plugins/contribution-graph/styles.css": {
+   "mode": "pkg",
+   "sha": "914a03961df4ba21a00c2f44e83c10b021afb024"
+  },
+  ".obsidian/plugins/dataview/data.json": {
+   "mode": "json",
+   "sha": "a4e8b0ebfaecf38a6cc6742ce452a7992fe9359b"
+  },
+  ".obsidian/plugins/dataview/main.js": {
+   "mode": "pkg",
+   "sha": "898d702aef3658acfb9ea6deaf60ba2b63e26adf"
+  },
+  ".obsidian/plugins/dataview/manifest.json": {
+   "mode": "pkg",
+   "sha": "926b2a6dbedec6fe29fb7a37f8448c4beb376a65"
+  },
+  ".obsidian/plugins/dataview/styles.css": {
+   "mode": "pkg",
+   "sha": "618821aa159c9c801eafe7bd002e0a4253302660"
+  },
+  ".obsidian/plugins/easy-delete-image/main.js": {
+   "mode": "pkg",
+   "sha": "c48ead0908bcbf103a0c14f8c4a5616e90f2bfb7"
+  },
+  ".obsidian/plugins/easy-delete-image/manifest.json": {
+   "mode": "pkg",
+   "sha": "abab678e76ffdbade9b2f92099568cca82614aec"
+  },
+  ".obsidian/plugins/editable-cards/main.js": {
+   "mode": "pkg",
+   "sha": "9f3f224536e4c84bb58f9ccccab833d5adbea618"
+  },
+  ".obsidian/plugins/editable-cards/manifest.json": {
+   "mode": "pkg",
+   "sha": "683ab72a8c7d4256fe4cd159d771645109ed50bd"
+  },
+  ".obsidian/plugins/editable-cards/styles.css": {
+   "mode": "pkg",
+   "sha": "bf18f589061a8b908779a145a6a38bb9240fe37e"
+  },
+  ".obsidian/plugins/homepage/data.json": {
+   "mode": "json",
+   "sha": "460db72a7e8072548ec6b2da6775900fe94075a7"
+  },
+  ".obsidian/plugins/homepage/main.js": {
+   "mode": "pkg",
+   "sha": "7555b93ba41b974c13dbf6ab1f7ae762e3755810"
+  },
+  ".obsidian/plugins/homepage/manifest.json": {
+   "mode": "pkg",
+   "sha": "330a80ce3bbb4826cee8597323c016426dcb8b9c"
+  },
+  ".obsidian/plugins/homepage/styles.css": {
+   "mode": "pkg",
+   "sha": "f190b08d7b3c0ed36fd714a9e990df15dc4b8ca9"
+  },
+  ".obsidian/plugins/inline-task-edit/main.js": {
+   "mode": "pkg",
+   "sha": "2047917b3cc0132d0a8da0b91709eb27195cc832"
+  },
+  ".obsidian/plugins/inline-task-edit/manifest.json": {
+   "mode": "pkg",
+   "sha": "4115c7c469e4078e36191d4fb73bbf9c180cf095"
+  },
+  ".obsidian/plugins/inline-task-edit/styles.css": {
+   "mode": "pkg",
+   "sha": "49eebb3cebaaae5a1b62757d5bbe968e4517c575"
+  },
+  ".obsidian/plugins/jz-paste-optimizer/main.js": {
+   "mode": "pkg",
+   "sha": "9177230fa75f18aaf34f5fdead4f13a8cc66c8d1"
+  },
+  ".obsidian/plugins/jz-paste-optimizer/manifest.json": {
+   "mode": "pkg",
+   "sha": "1a8727bced2c039b3554597ab237caa999530c4d"
+  },
+  ".obsidian/plugins/learning-system/data.json": {
+   "mode": "json",
+   "sha": "4845c77d9e2a5349720a44edc46b150fc5d88945"
+  },
+  ".obsidian/plugins/learning-system/main.js": {
+   "mode": "pkg",
+   "sha": "853a28ca52bf87862babeddb61c62f4915801c9d"
+  },
+  ".obsidian/plugins/learning-system/manifest.json": {
+   "mode": "pkg",
+   "sha": "9756ad3489b8d96c4e98c0b048bd6042ee436d1d"
+  },
+  ".obsidian/plugins/learning-system/styles.css": {
+   "mode": "pkg",
+   "sha": "843f56ac5b00b96ac77a26a9b9884e4799b7bc56"
+  },
+  ".obsidian/plugins/mousewheel-image-zoom/main.js": {
+   "mode": "pkg",
+   "sha": "742e4d746e7aabfd45a1003d91844a86afc568c7"
+  },
+  ".obsidian/plugins/mousewheel-image-zoom/manifest.json": {
+   "mode": "pkg",
+   "sha": "be88de8cea23f4548050d2686f593b74c6f338b1"
+  },
+  ".obsidian/plugins/obsidian-book-search-plugin/data.json": {
+   "mode": "json",
+   "sha": "88373b11886dccd6530f4082476364d09e9616e2"
+  },
+  ".obsidian/plugins/obsidian-book-search-plugin/main.js": {
+   "mode": "pkg",
+   "sha": "030e76822693928c71549e62923e77b975fde2bd"
+  },
+  ".obsidian/plugins/obsidian-book-search-plugin/manifest.json": {
+   "mode": "pkg",
+   "sha": "d7ae7d5edbf82db7d60c78ba3e11915177eeb10a"
+  },
+  ".obsidian/plugins/obsidian-book-search-plugin/styles.css": {
+   "mode": "pkg",
+   "sha": "99393130151d27b3da0dcfa71ef0cb380958b5ea"
+  },
+  ".obsidian/plugins/obsidian-douban-plugin/data.json": {
+   "mode": "json",
+   "sha": "e078fa6d2e324916ed8877a60392eb72edaa5c32"
+  },
+  ".obsidian/plugins/obsidian-douban-plugin/main.js": {
+   "mode": "pkg",
+   "sha": "d6a1d0d92b4cd2c806976ae183ce47ae28293ac6"
+  },
+  ".obsidian/plugins/obsidian-douban-plugin/manifest.json": {
+   "mode": "pkg",
+   "sha": "6e682a5a76a0688452efddc650752a86b482c997"
+  },
+  ".obsidian/plugins/obsidian-douban-plugin/styles.css": {
+   "mode": "pkg",
+   "sha": "6974aa229534fd6536c90b49f9b181aa24b40311"
+  },
+  ".obsidian/plugins/obsidian-echarts/main.js": {
+   "mode": "pkg",
+   "sha": "10333b19228d5c0d1a5589e17c8963c8af5bfb11"
+  },
+  ".obsidian/plugins/obsidian-echarts/manifest.json": {
+   "mode": "pkg",
+   "sha": "3f2379e53124f0ad40a3d11caa42ee752c9313e0"
+  },
+  ".obsidian/plugins/obsidian-excalidraw-plugin/main.js": {
+   "mode": "pkg",
+   "sha": "fdcd82cfdc6082af6e24a59d3133e94f2e60a9e6"
+  },
+  ".obsidian/plugins/obsidian-excalidraw-plugin/manifest.json": {
+   "mode": "pkg",
+   "sha": "52ac6098ac97c0575afb35bfdb2d72c0a6094ab2"
+  },
+  ".obsidian/plugins/obsidian-excalidraw-plugin/styles.css": {
+   "mode": "pkg",
+   "sha": "fde6326ffc4827a76b38e244e30ea88490da07d9"
+  },
+  ".obsidian/plugins/obsidian-focus-plugin/data.json": {
+   "mode": "json",
+   "sha": "da5f8f0d64849e09a3664f6a272e7fa7a472711c"
+  },
+  ".obsidian/plugins/obsidian-focus-plugin/main.js": {
+   "mode": "pkg",
+   "sha": "a59705dc9d50e2e98dffcfd902a407d6571f739f"
+  },
+  ".obsidian/plugins/obsidian-focus-plugin/manifest.json": {
+   "mode": "pkg",
+   "sha": "c1e930c6cbd6fc6cbe5d83244b356df0264df051"
+  },
+  ".obsidian/plugins/obsidian-focus-plugin/styles.css": {
+   "mode": "pkg",
+   "sha": "47724d2d6d16ebadd47f18324c5131f6bbd26b45"
+  },
+  ".obsidian/plugins/obsidian-icon-folder/data.json": {
+   "mode": "json",
+   "sha": "743a2187cf5b088faa21a1bde42b3b129d227a56"
+  },
+  ".obsidian/plugins/obsidian-icon-folder/main.js": {
+   "mode": "pkg",
+   "sha": "271b2ffc65b8f2e54b070d1d7264ef6d55bc710b"
+  },
+  ".obsidian/plugins/obsidian-icon-folder/manifest.json": {
+   "mode": "pkg",
+   "sha": "6e916c337c0e72d7b9f3d827275dec15f5cc02c1"
+  },
+  ".obsidian/plugins/obsidian-icon-folder/styles.css": {
+   "mode": "pkg",
+   "sha": "a74fdd4404330d47dc6392a3bdfffffaa53d4c2a"
+  },
+  ".obsidian/plugins/obsidian-media-db-plugin/main.js": {
+   "mode": "pkg",
+   "sha": "f4f04e154e6798e48dd4e53e35c6ced00e16dc32"
+  },
+  ".obsidian/plugins/obsidian-media-db-plugin/manifest.json": {
+   "mode": "pkg",
+   "sha": "a8d101ff53df2782c8cb2be9e157fed22ab5f547"
+  },
+  ".obsidian/plugins/obsidian-media-db-plugin/styles.css": {
+   "mode": "pkg",
+   "sha": "6d4bb8da2c7250636bf35db1960033d8c6672621"
+  },
+  ".obsidian/plugins/obsidian-mindmap-nextgen/data.json": {
+   "mode": "json",
+   "sha": "8396962843680e3b29acc27e5d39488dcaf6adcf"
+  },
+  ".obsidian/plugins/obsidian-mindmap-nextgen/main.js": {
+   "mode": "pkg",
+   "sha": "199242fd874875e150870f640a1ff5b4d805ccdc"
+  },
+  ".obsidian/plugins/obsidian-mindmap-nextgen/manifest.json": {
+   "mode": "pkg",
+   "sha": "28dfd5557311d284c50682c7aaf13855f6f5b246"
+  },
+  ".obsidian/plugins/obsidian-mindmap-nextgen/styles.css": {
+   "mode": "pkg",
+   "sha": "6b5624e87887e9df220d6e6e5263c9e07f42d7a5"
+  },
+  ".obsidian/plugins/obsidian-quiet-outline/data.json": {
+   "mode": "json",
+   "sha": "d1f582b39e4f0e0be65853c36ef37e94589e8b14"
+  },
+  ".obsidian/plugins/obsidian-quiet-outline/main.js": {
+   "mode": "pkg",
+   "sha": "f7ebc009873da226e235b6883ecd2426c4c4527a"
+  },
+  ".obsidian/plugins/obsidian-quiet-outline/manifest.json": {
+   "mode": "pkg",
+   "sha": "e487b597e2379867a6e5a0a04c74c94e62537594"
+  },
+  ".obsidian/plugins/obsidian-quiet-outline/styles.css": {
+   "mode": "pkg",
+   "sha": "3e3b66b0f19f61df06faf4a2ce8cbdb1e6d74c7a"
+  },
+  ".obsidian/plugins/obsidian-tasks-plugin/data.json": {
+   "mode": "json",
+   "sha": "c0313cd831d4aba808aaeb669546739359a0ec8e"
+  },
+  ".obsidian/plugins/obsidian-tasks-plugin/main.js": {
+   "mode": "pkg",
+   "sha": "4b1517b9d41833aaddf5bd6483dbe81c18dd7771"
+  },
+  ".obsidian/plugins/obsidian-tasks-plugin/manifest.json": {
+   "mode": "pkg",
+   "sha": "3dc855f650acd243d179d40dc44d47a56ac2534d"
+  },
+  ".obsidian/plugins/obsidian-tasks-plugin/styles.css": {
+   "mode": "pkg",
+   "sha": "d2af268d586ff1f2e57717f4b298bff8daf78b98"
+  },
+  ".obsidian/plugins/obsidian-title-serial-number-plugin/main.js": {
+   "mode": "pkg",
+   "sha": "bedef1bc8adfe299a6b5ed53cc2969972ef9160b"
+  },
+  ".obsidian/plugins/obsidian-title-serial-number-plugin/manifest.json": {
+   "mode": "pkg",
+   "sha": "89829112a77fc3bfca7e459ec80e63a3020a3481"
+  },
+  ".obsidian/plugins/open-in-new-tab/main.js": {
+   "mode": "pkg",
+   "sha": "447b1e21dc5032bc15c7fdee6e7407d0c5c31b6b"
+  },
+  ".obsidian/plugins/open-in-new-tab/manifest.json": {
+   "mode": "pkg",
+   "sha": "1e26430fbe811480b24ab71e21758260296aff38"
+  },
+  ".obsidian/plugins/oz-clear-unused-images/main.js": {
+   "mode": "pkg",
+   "sha": "1bacc1651534361ee1a6f6218db97f09c510354b"
+  },
+  ".obsidian/plugins/oz-clear-unused-images/manifest.json": {
+   "mode": "pkg",
+   "sha": "2652ce4c34aec7f1f678d525a371c4ed18f5c9f9"
+  },
+  ".obsidian/plugins/oz-clear-unused-images/styles.css": {
+   "mode": "pkg",
+   "sha": "79bc1745b63d201806eefb0ed99026d706140e3f"
+  },
+  ".obsidian/plugins/periodic-notes/data.json": {
+   "mode": "json",
+   "sha": "ca34459a4d6106fd81af391cc1c40a8fc7771be3"
+  },
+  ".obsidian/plugins/periodic-notes/main.js": {
+   "mode": "pkg",
+   "sha": "64325e69b78111c3d0d6f12a724dd0a0dc430ba4"
+  },
+  ".obsidian/plugins/periodic-notes/manifest.json": {
+   "mode": "pkg",
+   "sha": "f34394e8cc8ef3cc82966cfd2e8560942e630e0b"
+  },
+  ".obsidian/plugins/periodic-notes/styles.css": {
+   "mode": "pkg",
+   "sha": "d388888f731ad3ea9654b2d9655ac8b2185e6778"
+  },
+  ".obsidian/plugins/quickadd/main.js": {
+   "mode": "pkg",
+   "sha": "ad612cf76c646246a3720043eb062f59ae64141d"
+  },
+  ".obsidian/plugins/quickadd/manifest.json": {
+   "mode": "pkg",
+   "sha": "6d8e7ea3e9d2b5ce44273f913496a8f9ec1c3b84"
+  },
+  ".obsidian/plugins/quickadd/styles.css": {
+   "mode": "pkg",
+   "sha": "42e8274b5372c619843f39329be03b8200b1ecba"
+  },
+  ".obsidian/plugins/recent-files-obsidian/main.js": {
+   "mode": "pkg",
+   "sha": "a70e7604043e4fcafdfd8ab424dbf51d6f70509f"
+  },
+  ".obsidian/plugins/recent-files-obsidian/manifest.json": {
+   "mode": "pkg",
+   "sha": "3f5c64b2cd30f5219a17c4fa28b7d003f2e1bf7b"
+  },
+  ".obsidian/plugins/recent-files-obsidian/styles.css": {
+   "mode": "pkg",
+   "sha": "87e0c2d98f37cd7129fe10368af75b423ea22230"
+  },
+  ".obsidian/plugins/remember-cursor-position/main.js": {
+   "mode": "pkg",
+   "sha": "bac766ba00488016d3c5dad7e1f07cdde56afa04"
+  },
+  ".obsidian/plugins/remember-cursor-position/manifest.json": {
+   "mode": "pkg",
+   "sha": "f235c59cccfd448a5392d95280953152fb178f06"
+  },
+  ".obsidian/plugins/shortcuts-extender/main.js": {
+   "mode": "pkg",
+   "sha": "ee7438a3bf3a23ea625c6336bb4862dea1a63b11"
+  },
+  ".obsidian/plugins/shortcuts-extender/manifest.json": {
+   "mode": "pkg",
+   "sha": "9b9109fb842348519629116e6fe6568eb2aa71f6"
+  },
+  ".obsidian/plugins/templater-obsidian/data.json": {
+   "mode": "json",
+   "sha": "d710c817bd1eb0931c8de48edd456a8cecdf024a"
+  },
+  ".obsidian/plugins/templater-obsidian/main.js": {
+   "mode": "pkg",
+   "sha": "3d4fd89684df6a043fd6f7396995522f79a4c765"
+  },
+  ".obsidian/plugins/templater-obsidian/manifest.json": {
+   "mode": "pkg",
+   "sha": "b2b3fdb41a80c74851f02674fc1065a570359086"
+  },
+  ".obsidian/plugins/templater-obsidian/styles.css": {
+   "mode": "pkg",
+   "sha": "36aa4fac1ea65dc94a3fba43a0400bb6a7062899"
+  },
+  ".obsidian/plugins/vault-updater/main.js": {
+   "mode": "pkg",
+   "sha": "a86ea452346eb2ac350c51047bbcdc6b71055ec0"
+  },
+  ".obsidian/plugins/vault-updater/manifest.json": {
+   "mode": "pkg",
+   "sha": "420f4de0216d2e1a3e477cf7819297b414894b48"
+  },
+  ".obsidian/scripts/wordheat_index.py": {
+   "mode": "file",
+   "sha": "8aa23c023184d5ef4f9bd034e7194ce0a629d0aa"
+  },
+  ".obsidian/snippets/MCL Gallery Cards.css": {
+   "mode": "file",
+   "sha": "f416761edb0fb4a0210f215e3a06ed1ecc49dc2f"
+  },
+  ".obsidian/snippets/MCL Multi Column.css": {
+   "mode": "file",
+   "sha": "7b0649b81ec557d5b76f17be22701a9758cda859"
+  },
+  ".obsidian/snippets/MCL Wide Views.css": {
+   "mode": "file",
+   "sha": "4c5295118f12ad22d357c699fdd033aba68e9cbb"
+  },
+  ".obsidian/snippets/bases-cards-tweak.css": {
+   "mode": "file",
+   "sha": "e21f5162f4fc79d4a0b2b5a31871efb38234e413"
+  },
+  ".obsidian/snippets/centered.css": {
+   "mode": "file",
+   "sha": "dc326653c4ef4c9c7c1d8721d83d495961a84e53"
+  },
+  ".obsidian/snippets/compact-tasks.css": {
+   "mode": "file",
+   "sha": "dbb6d0511e340b63056d0fad2208a33a151a7500"
+  },
+  ".obsidian/snippets/dataview-compact.css": {
+   "mode": "file",
+   "sha": "c2b1c6240c928b1ae7678f950aec098d3d52860f"
+  },
+  ".obsidian/snippets/homepage-columns.css": {
+   "mode": "file",
+   "sha": "c886f68d070aad84cc0c640d512597c40d09be26"
+  },
+  ".obsidian/themes/Minimal/manifest.json": {
+   "mode": "pkg",
+   "sha": "9079bf70144e9b704970dc2b9b7467f3831267cf"
+  },
+  ".obsidian/themes/Minimal/theme.css": {
+   "mode": "pkg",
+   "sha": "306c92f2681606194a24142a1367a73e194e3e4d"
+  },
+  ".obsidian/types.json": {
+   "mode": "json",
+   "sha": "ef9d3b40821736cfc6b449f5994dbb14ab0036c9"
+  },
+  ".obsidian/vault-stats.json": {
+   "mode": "seed",
+   "sha": "53be119d601096bf283e7f5a82a7cf3cc577572b"
+  },
+  "1.Rough/0-fleeting.md": {
+   "mode": "file",
+   "sha": "80f91564f86ebddf6567255ad2a738c804a0b447"
+  },
+  "1.Rough/README.md": {
+   "mode": "file",
+   "sha": "7b1fd859a12d3e60b7e075eb165c45ab8b5aeefe"
+  },
+  "1.Rough/演示.md": {
+   "mode": "file",
+   "sha": "0b99f768ab5cacd81f2ebab0cb832309a10b66b0"
+  },
+  "10.Template/README.md": {
+   "mode": "file",
+   "sha": "4c8599f745373a874a51c0f93c9272ff233a6748"
+  },
+  "10.Template/book&movie/book-ch.md": {
+   "mode": "file",
+   "sha": "cf4ac2b8d25e287902e9e35ea01ada0d28c7b2bc"
+  },
+  "10.Template/book&movie/book-en.md": {
+   "mode": "file",
+   "sha": "a116638a12ff914d5666a2f315de5c79d4e52a53"
+  },
+  "10.Template/book&movie/movie-ch.md": {
+   "mode": "file",
+   "sha": "a3aad844d6a8cd85a085374b5d50344a7face71c"
+  },
+  "10.Template/book&movie/movie-en.md": {
+   "mode": "file",
+   "sha": "1aa167a5cff43863ec21669156915fcdce374162"
+  },
+  "10.Template/book&movie/阅读记录模板.md": {
+   "mode": "file",
+   "sha": "c9b3cfb200c603d26e1c801842fcadd9aff3b017"
+  },
+  "10.Template/projects/project- template.md": {
+   "mode": "file",
+   "sha": "5a9a71247ff938a61ffba7f9156f34d24f4fbd1d"
+  },
+  "10.Template/projects/task - template.md": {
+   "mode": "file",
+   "sha": "b7bceb5cd1ab2dc14c8611f45c5d8d128fe1ec25"
+  },
+  "10.Template/projects/try.md": {
+   "mode": "file",
+   "sha": "da4f05bccca31d356f2a0e76fc73a24d6bd9b2de"
+  },
+  "10.Template/todo/daily.md": {
+   "mode": "file",
+   "sha": "f20c433c61aee5afc7b9b5358256f6a7004eda70"
+  },
+  "11.Excalidraw/README.md": {
+   "mode": "file",
+   "sha": "4becd9add4eab6a216740492de6a62fa837d6522"
+  },
+  "12.skills/README.md": {
+   "mode": "file",
+   "sha": "45684c409a9154fc4c89da65f00d835ab0c8061d"
+  },
+  "12.skills/周复盘/SKILL.md": {
+   "mode": "file",
+   "sha": "f99fd544c6f159a4973fb013fa2ceda24c8afefa"
+  },
+  "2.Read/README.md": {
+   "mode": "file",
+   "sha": "c574b0fed711ed7f763e30fbc2c21e1223b692f8"
+  },
+  "2.Read/assets/Pasted image 20260624184301.png": {
+   "mode": "file",
+   "sha": "4ca301554c03ea9b0f76d82df95fd5b0940974a3"
+  },
+  "2.Read/bases图书馆.base": {
+   "mode": "file",
+   "sha": "6092b4cd3836671c85574c7797d41eedb3fe11a6"
+  },
+  "2.Read/bases影视库.base": {
+   "mode": "file",
+   "sha": "e2bd9c7403513ac7d2d271e97b6a904ae4dbcab5"
+  },
+  "2.Read/books/人类简史.md": {
+   "mode": "file",
+   "sha": "f1d4cb0e7b52bc477c485cf533b06c1b0c5e6ce6"
+  },
+  "2.Read/books/思考快与慢.md": {
+   "mode": "file",
+   "sha": "1706359c15d39ceb9bb02d898f9cd7edc94d457b"
+  },
+  "2.Read/books/纳瓦尔宝典.md": {
+   "mode": "file",
+   "sha": "30a94e30b05a14c73f7dd4e4334aa713492f22c2"
+  },
+  "2.Read/douban/0_dimage/人类简史.jpg": {
+   "mode": "file",
+   "sha": "2d4212bb7e752b70a2e2e5e5ddce36f72c9469bd"
+  },
+  "2.Read/douban/0_dimage/思考快与慢.jpg": {
+   "mode": "file",
+   "sha": "12072f09073cd3c9c63fde3012746590f3594e52"
+  },
+  "2.Read/douban/0_dimage/纳瓦尔宝典.jpg": {
+   "mode": "file",
+   "sha": "403806534ecf485fa8cc628d40f16cd83ab8783f"
+  },
+  "2.Read/douban/0_dimage/调音师.jpg": {
+   "mode": "file",
+   "sha": "2eb2d442df88d5fc4aa4022d125f5d5e3d1df092"
+  },
+  "2.Read/media-DB/movie/调音师.md": {
+   "mode": "file",
+   "sha": "837db9153780aa5edb0efc71e9b81e8d1f8c5ce9"
+  },
+  "2.Read/书架.md": {
+   "mode": "file",
+   "sha": "15be55003998c11b0fb7db2f71ec1474ba90475e"
+  },
+  "2.Read/观影库.md": {
+   "mode": "file",
+   "sha": "b8239b21c15ed01b9e2f4a0eae3759853ed3fa64"
+  },
+  "3.learn/AI/示例-提示词工程入门.md": {
+   "mode": "file",
+   "sha": "4c7a035583cd8d2691ad622c3384ee2842198164"
+  },
+  "3.learn/README.md": {
+   "mode": "file",
+   "sha": "b6d45d5ad5c4d2b7b849bd4423a0d84a9687c623"
+  },
+  "4.Projects/I.projects/a1.第一个项目.md": {
+   "mode": "file",
+   "sha": "002cdc3934d374123139f406dd4ce72651a320a7"
+  },
+  "4.Projects/I.projects/d2.演示项目.md": {
+   "mode": "file",
+   "sha": "be4e40ced86e8eac81ada9c9c5319b7bf0df8808"
+  },
+  "4.Projects/II.tasks/a1-001-第一个task.md": {
+   "mode": "file",
+   "sha": "7150348cc4c267b48d9d7cb41a874b80bad34124"
+  },
+  "4.Projects/II.tasks/d2-001-演示task.md": {
+   "mode": "file",
+   "sha": "1aa1cc2edc249153ea49221915a2cd56a1e2bd00"
+  },
+  "4.Projects/III.dashboard/task总览.md": {
+   "mode": "file",
+   "sha": "29f2a06c2688f3609091a97453bd2670201f948b"
+  },
+  "4.Projects/III.dashboard/项目总览.md": {
+   "mode": "file",
+   "sha": "c20cbdb2143db2638d890121dfad10a6415728cc"
+  },
+  "4.Projects/README.md": {
+   "mode": "file",
+   "sha": "a5c8af918f5c16e8fcab9dd52ec5a9cad081ffa6"
+  },
+  "5.todo/0_view/todo list.md": {
+   "mode": "file",
+   "sha": "d108598ba83bb48462a919edd564664317cf8240"
+  },
+  "5.todo/0_view/回顾本周.md": {
+   "mode": "file",
+   "sha": "21d0e9d27acb57d1fe1edf4a79603f533321ec10"
+  },
+  "5.todo/README.md": {
+   "mode": "file",
+   "sha": "6c1d4d0fa8ce48fb05104493aa548c4646eaeb21"
+  },
+  "5.todo/date/2026-06-21.md": {
+   "mode": "file",
+   "sha": "c3aa2618f7452337a0974aaf6aeb0a511a11484e"
+  },
+  "5.todo/date/2026-06-26.md": {
+   "mode": "file",
+   "sha": "ff58710b9f0739b69e600ac83d6ceff7efb4d8b1"
+  },
+  "5.todo/prompt/周复盘prompt-成长.md": {
+   "mode": "file",
+   "sha": "a775125426a679045458e02e107794e51b64c485"
+  },
+  "5.todo/prompt/周复盘prompt-稳定.md": {
+   "mode": "file",
+   "sha": "48360b6165cca788b1be7f73092d9c893b95d377"
+  },
+  "5.todo/prompt/周复盘流程.md": {
+   "mode": "file",
+   "sha": "fa079d1d9731644e432b6bbe9767b7ec6048c753"
+  },
+  "5.todo/scheduled/schedule-task.md": {
+   "mode": "file",
+   "sha": "c0f2a155be2424a20b085571db1a98346a6067ae"
+  },
+  "6.personal/README.md": {
+   "mode": "file",
+   "sha": "b4a9158f999d46fe00812f60899f3072f97cf6a1"
+  },
+  "6.personal/diary/2026-06-13.md": {
+   "mode": "file",
+   "sha": "d587ae79256d6c84d962a317a0796551b8a53006"
+  },
+  "9.备忘/README.md": {
+   "mode": "file",
+   "sha": "b9ba557eeb79e0e5afff099fec27098fe9eaaffa"
+  },
+  "9.备忘/示例-快捷键.md": {
+   "mode": "file",
+   "sha": "40e739efb29edd8a61c70e2271cbb5ba89eed6ca"
+  },
+  "LICENSE": {
+   "mode": "file",
+   "sha": "5b855c2cc1f44d88c18174a53e4edf636c2aa9b0"
+  },
+  "README.md": {
+   "mode": "file",
+   "sha": "fcfad868c404cbd445f467846b79800882b20d63"
+  },
+  "homepage.md": {
+   "mode": "file",
+   "sha": "0d16f2e3bd9a3ffa71d96bc415fa603057a29ae9"
+  },
+  "开箱第一件事.md": {
+   "mode": "file",
+   "sha": "6695c701ced0ee25f8b0942c1ef50b22621943c2"
+  }
+ },
+ "history": {
+  ".gitignore": [
+   "242501545d8232cd8f6299add54ae7b1e06627d7",
+   "3b2549e178a05806221f033a23998be70c46bf18",
+   "54e9a9fb3070496d505d73b46b16ce05ad4e6edf",
+   "736dc423c347408786ea0a3de8ad9e97545b812b",
+   "94f8543539e0764410808eac7db2e2ce1a9aed45",
+   "993b927fdebe4368e97f16ce27e49bb8457bbeba"
+  ],
+  ".obsidian/app.json": [
+   "abef2ddf5b567ce10e54c12827c04ea4cae64425",
+   "c49eac6ff3a8eab49fb39d98015bfd25c85bbd18"
+  ],
+  ".obsidian/appearance.json": [
+   "159a1d5b4c46d91edc970cf89d95fc6f6761eddc",
+   "f8bb9a5344d3b068661ad5ccc3a5bad772049dbd"
+  ],
+  ".obsidian/community-plugins.json": [
+   "86f1c381f4eda67185334d99051e9cc432cd9489",
+   "aeaea4f6efe5d9ee74f67aa42166a22cf85a49a8",
+   "cf3585db5cd1d0342b15f37b2b30918e7f65c285",
+   "fc84c193a01f04d897994b5c2c4863744beff56e"
+  ],
+  ".obsidian/core-plugins.json": [
+   "45e483803e26d1b2cb12cfd87e2aab0637e6614e",
+   "e2342f1f0016c62214b690409a4614664737c160"
+  ],
+  ".obsidian/daily-notes.json": [
+   "a2885f3b82a6dffba2fe8e4e729977632cc924f9"
+  ],
+  ".obsidian/graph.json": [
+   "90a4623c049b2c9afc4382eb4cb981044af3ebd9"
+  ],
+  ".obsidian/hotkeys.json": [
+   "29ddc8cca58f009cb737609026b72a67ee2f6a6a"
+  ],
+  ".obsidian/page-preview.json": [
+   "31a81360d787fa1b5c97d94fe7c125647d7a2a1d"
+  ],
+  ".obsidian/plugins/better-word-count/main.js": [
+   "f31e9cceacce59a90cff5375d530fcf6956afb78"
+  ],
+  ".obsidian/plugins/better-word-count/manifest.json": [
+   "67946aed1f4ce6ce90009404925d60d2afb53ea7"
+  ],
+  ".obsidian/plugins/better-word-count/styles.css": [
+   "dc3503063e4b5d784dcc458d2fd27f5b80d47157"
+  ],
+  ".obsidian/plugins/calendar/data.json": [
+   "b88b5ed2c062fb5e8d156f9777dafe789f301753"
+  ],
+  ".obsidian/plugins/calendar/main.js": [
+   "ed6cea3c8bb17c873403edaeaa93706f2e68c65b"
+  ],
+  ".obsidian/plugins/calendar/manifest.json": [
+   "028bfa5077de882fa2a945c4917dc08ccd04f906"
+  ],
+  ".obsidian/plugins/contribution-graph/LICENSE": [
+   "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+  ],
+  ".obsidian/plugins/contribution-graph/MODIFICATIONS.md": [
+   "dc4e187c3ce12a47ca5b11982590d29fa0f184ed"
+  ],
+  ".obsidian/plugins/contribution-graph/main.js": [
+   "bebf903b587ff8bcb8b4b4835c8b3a549a4ab394"
+  ],
+  ".obsidian/plugins/contribution-graph/manifest.json": [
+   "3c9b6b67bb332b746bdb36d9ac6e03c18bac83f5"
+  ],
+  ".obsidian/plugins/contribution-graph/styles.css": [
+   "914a03961df4ba21a00c2f44e83c10b021afb024"
+  ],
+  ".obsidian/plugins/dataview/data.json": [
+   "a4e8b0ebfaecf38a6cc6742ce452a7992fe9359b"
+  ],
+  ".obsidian/plugins/dataview/main.js": [
+   "898d702aef3658acfb9ea6deaf60ba2b63e26adf"
+  ],
+  ".obsidian/plugins/dataview/manifest.json": [
+   "926b2a6dbedec6fe29fb7a37f8448c4beb376a65"
+  ],
+  ".obsidian/plugins/dataview/styles.css": [
+   "618821aa159c9c801eafe7bd002e0a4253302660"
+  ],
+  ".obsidian/plugins/easy-delete-image/main.js": [
+   "c48ead0908bcbf103a0c14f8c4a5616e90f2bfb7"
+  ],
+  ".obsidian/plugins/easy-delete-image/manifest.json": [
+   "abab678e76ffdbade9b2f92099568cca82614aec"
+  ],
+  ".obsidian/plugins/editable-cards/main.js": [
+   "9f3f224536e4c84bb58f9ccccab833d5adbea618"
+  ],
+  ".obsidian/plugins/editable-cards/manifest.json": [
+   "683ab72a8c7d4256fe4cd159d771645109ed50bd"
+  ],
+  ".obsidian/plugins/editable-cards/styles.css": [
+   "bf18f589061a8b908779a145a6a38bb9240fe37e"
+  ],
+  ".obsidian/plugins/homepage/data.json": [
+   "460db72a7e8072548ec6b2da6775900fe94075a7"
+  ],
+  ".obsidian/plugins/homepage/main.js": [
+   "7555b93ba41b974c13dbf6ab1f7ae762e3755810"
+  ],
+  ".obsidian/plugins/homepage/manifest.json": [
+   "330a80ce3bbb4826cee8597323c016426dcb8b9c"
+  ],
+  ".obsidian/plugins/homepage/styles.css": [
+   "f190b08d7b3c0ed36fd714a9e990df15dc4b8ca9"
+  ],
+  ".obsidian/plugins/inline-task-edit/main.js": [
+   "2047917b3cc0132d0a8da0b91709eb27195cc832"
+  ],
+  ".obsidian/plugins/inline-task-edit/manifest.json": [
+   "4115c7c469e4078e36191d4fb73bbf9c180cf095"
+  ],
+  ".obsidian/plugins/inline-task-edit/styles.css": [
+   "49eebb3cebaaae5a1b62757d5bbe968e4517c575"
+  ],
+  ".obsidian/plugins/jz-paste-optimizer/main.js": [
+   "9177230fa75f18aaf34f5fdead4f13a8cc66c8d1"
+  ],
+  ".obsidian/plugins/jz-paste-optimizer/manifest.json": [
+   "1a8727bced2c039b3554597ab237caa999530c4d"
+  ],
+  ".obsidian/plugins/learning-system/data.json": [
+   "4845c77d9e2a5349720a44edc46b150fc5d88945"
+  ],
+  ".obsidian/plugins/learning-system/main.js": [
+   "853a28ca52bf87862babeddb61c62f4915801c9d",
+   "abdc08be961ebf2625ee12f818e32f94cc935100"
+  ],
+  ".obsidian/plugins/learning-system/manifest.json": [
+   "9756ad3489b8d96c4e98c0b048bd6042ee436d1d"
+  ],
+  ".obsidian/plugins/learning-system/styles.css": [
+   "37332285ac1eace471df88f1bd58d97f3d22b1e8",
+   "771f3ed00955033863a8808b1c66da25b68e789a",
+   "843f56ac5b00b96ac77a26a9b9884e4799b7bc56"
+  ],
+  ".obsidian/plugins/mousewheel-image-zoom/main.js": [
+   "742e4d746e7aabfd45a1003d91844a86afc568c7"
+  ],
+  ".obsidian/plugins/mousewheel-image-zoom/manifest.json": [
+   "be88de8cea23f4548050d2686f593b74c6f338b1"
+  ],
+  ".obsidian/plugins/obsidian-book-search-plugin/data.json": [
+   "88373b11886dccd6530f4082476364d09e9616e2"
+  ],
+  ".obsidian/plugins/obsidian-book-search-plugin/main.js": [
+   "030e76822693928c71549e62923e77b975fde2bd"
+  ],
+  ".obsidian/plugins/obsidian-book-search-plugin/manifest.json": [
+   "d7ae7d5edbf82db7d60c78ba3e11915177eeb10a"
+  ],
+  ".obsidian/plugins/obsidian-book-search-plugin/styles.css": [
+   "99393130151d27b3da0dcfa71ef0cb380958b5ea"
+  ],
+  ".obsidian/plugins/obsidian-douban-plugin/data.json": [
+   "e078fa6d2e324916ed8877a60392eb72edaa5c32"
+  ],
+  ".obsidian/plugins/obsidian-douban-plugin/main.js": [
+   "d6a1d0d92b4cd2c806976ae183ce47ae28293ac6"
+  ],
+  ".obsidian/plugins/obsidian-douban-plugin/manifest.json": [
+   "6e682a5a76a0688452efddc650752a86b482c997"
+  ],
+  ".obsidian/plugins/obsidian-douban-plugin/styles.css": [
+   "6974aa229534fd6536c90b49f9b181aa24b40311"
+  ],
+  ".obsidian/plugins/obsidian-echarts/main.js": [
+   "10333b19228d5c0d1a5589e17c8963c8af5bfb11"
+  ],
+  ".obsidian/plugins/obsidian-echarts/manifest.json": [
+   "3f2379e53124f0ad40a3d11caa42ee752c9313e0"
+  ],
+  ".obsidian/plugins/obsidian-excalidraw-plugin/main.js": [
+   "fdcd82cfdc6082af6e24a59d3133e94f2e60a9e6"
+  ],
+  ".obsidian/plugins/obsidian-excalidraw-plugin/manifest.json": [
+   "52ac6098ac97c0575afb35bfdb2d72c0a6094ab2"
+  ],
+  ".obsidian/plugins/obsidian-excalidraw-plugin/styles.css": [
+   "fde6326ffc4827a76b38e244e30ea88490da07d9"
+  ],
+  ".obsidian/plugins/obsidian-focus-plugin/data.json": [
+   "da5f8f0d64849e09a3664f6a272e7fa7a472711c"
+  ],
+  ".obsidian/plugins/obsidian-focus-plugin/main.js": [
+   "a59705dc9d50e2e98dffcfd902a407d6571f739f"
+  ],
+  ".obsidian/plugins/obsidian-focus-plugin/manifest.json": [
+   "c1e930c6cbd6fc6cbe5d83244b356df0264df051"
+  ],
+  ".obsidian/plugins/obsidian-focus-plugin/styles.css": [
+   "47724d2d6d16ebadd47f18324c5131f6bbd26b45"
+  ],
+  ".obsidian/plugins/obsidian-icon-folder/data.json": [
+   "743a2187cf5b088faa21a1bde42b3b129d227a56"
+  ],
+  ".obsidian/plugins/obsidian-icon-folder/main.js": [
+   "271b2ffc65b8f2e54b070d1d7264ef6d55bc710b"
+  ],
+  ".obsidian/plugins/obsidian-icon-folder/manifest.json": [
+   "6e916c337c0e72d7b9f3d827275dec15f5cc02c1"
+  ],
+  ".obsidian/plugins/obsidian-icon-folder/styles.css": [
+   "a74fdd4404330d47dc6392a3bdfffffaa53d4c2a"
+  ],
+  ".obsidian/plugins/obsidian-media-db-plugin/main.js": [
+   "f4f04e154e6798e48dd4e53e35c6ced00e16dc32"
+  ],
+  ".obsidian/plugins/obsidian-media-db-plugin/manifest.json": [
+   "a8d101ff53df2782c8cb2be9e157fed22ab5f547"
+  ],
+  ".obsidian/plugins/obsidian-media-db-plugin/styles.css": [
+   "6d4bb8da2c7250636bf35db1960033d8c6672621"
+  ],
+  ".obsidian/plugins/obsidian-mindmap-nextgen/data.json": [
+   "8396962843680e3b29acc27e5d39488dcaf6adcf",
+   "fb0c681c36f69a68e1e36ee88e6ccfabbd441895"
+  ],
+  ".obsidian/plugins/obsidian-mindmap-nextgen/main.js": [
+   "199242fd874875e150870f640a1ff5b4d805ccdc"
+  ],
+  ".obsidian/plugins/obsidian-mindmap-nextgen/manifest.json": [
+   "28dfd5557311d284c50682c7aaf13855f6f5b246"
+  ],
+  ".obsidian/plugins/obsidian-mindmap-nextgen/styles.css": [
+   "6b5624e87887e9df220d6e6e5263c9e07f42d7a5"
+  ],
+  ".obsidian/plugins/obsidian-quiet-outline/data.json": [
+   "d1f582b39e4f0e0be65853c36ef37e94589e8b14"
+  ],
+  ".obsidian/plugins/obsidian-quiet-outline/main.js": [
+   "f7ebc009873da226e235b6883ecd2426c4c4527a"
+  ],
+  ".obsidian/plugins/obsidian-quiet-outline/manifest.json": [
+   "e487b597e2379867a6e5a0a04c74c94e62537594"
+  ],
+  ".obsidian/plugins/obsidian-quiet-outline/styles.css": [
+   "3e3b66b0f19f61df06faf4a2ce8cbdb1e6d74c7a"
+  ],
+  ".obsidian/plugins/obsidian-tasks-plugin/data.json": [
+   "c0313cd831d4aba808aaeb669546739359a0ec8e"
+  ],
+  ".obsidian/plugins/obsidian-tasks-plugin/main.js": [
+   "4b1517b9d41833aaddf5bd6483dbe81c18dd7771"
+  ],
+  ".obsidian/plugins/obsidian-tasks-plugin/manifest.json": [
+   "3dc855f650acd243d179d40dc44d47a56ac2534d"
+  ],
+  ".obsidian/plugins/obsidian-tasks-plugin/styles.css": [
+   "d2af268d586ff1f2e57717f4b298bff8daf78b98"
+  ],
+  ".obsidian/plugins/obsidian-title-serial-number-plugin/main.js": [
+   "bedef1bc8adfe299a6b5ed53cc2969972ef9160b"
+  ],
+  ".obsidian/plugins/obsidian-title-serial-number-plugin/manifest.json": [
+   "89829112a77fc3bfca7e459ec80e63a3020a3481"
+  ],
+  ".obsidian/plugins/open-in-new-tab/main.js": [
+   "447b1e21dc5032bc15c7fdee6e7407d0c5c31b6b"
+  ],
+  ".obsidian/plugins/open-in-new-tab/manifest.json": [
+   "1e26430fbe811480b24ab71e21758260296aff38"
+  ],
+  ".obsidian/plugins/oz-clear-unused-images/main.js": [
+   "1bacc1651534361ee1a6f6218db97f09c510354b"
+  ],
+  ".obsidian/plugins/oz-clear-unused-images/manifest.json": [
+   "2652ce4c34aec7f1f678d525a371c4ed18f5c9f9"
+  ],
+  ".obsidian/plugins/oz-clear-unused-images/styles.css": [
+   "79bc1745b63d201806eefb0ed99026d706140e3f"
+  ],
+  ".obsidian/plugins/periodic-notes/data.json": [
+   "6342a6b45a6adc9cf29dafc53ef6f0904ffbb384",
+   "ca34459a4d6106fd81af391cc1c40a8fc7771be3"
+  ],
+  ".obsidian/plugins/periodic-notes/main.js": [
+   "64325e69b78111c3d0d6f12a724dd0a0dc430ba4"
+  ],
+  ".obsidian/plugins/periodic-notes/manifest.json": [
+   "f34394e8cc8ef3cc82966cfd2e8560942e630e0b"
+  ],
+  ".obsidian/plugins/periodic-notes/styles.css": [
+   "d388888f731ad3ea9654b2d9655ac8b2185e6778"
+  ],
+  ".obsidian/plugins/quickadd/main.js": [
+   "ad612cf76c646246a3720043eb062f59ae64141d"
+  ],
+  ".obsidian/plugins/quickadd/manifest.json": [
+   "6d8e7ea3e9d2b5ce44273f913496a8f9ec1c3b84"
+  ],
+  ".obsidian/plugins/quickadd/styles.css": [
+   "42e8274b5372c619843f39329be03b8200b1ecba"
+  ],
+  ".obsidian/plugins/recent-files-obsidian/main.js": [
+   "a70e7604043e4fcafdfd8ab424dbf51d6f70509f"
+  ],
+  ".obsidian/plugins/recent-files-obsidian/manifest.json": [
+   "3f5c64b2cd30f5219a17c4fa28b7d003f2e1bf7b"
+  ],
+  ".obsidian/plugins/recent-files-obsidian/styles.css": [
+   "87e0c2d98f37cd7129fe10368af75b423ea22230"
+  ],
+  ".obsidian/plugins/remember-cursor-position/cursor-positions.json": [
+   "8e2157016edb75be4b95bf63c6e9e4eba5041d08",
+   "9f69d6c247d2f7809a3d234b91befe6f5d12d0f9"
+  ],
+  ".obsidian/plugins/remember-cursor-position/main.js": [
+   "bac766ba00488016d3c5dad7e1f07cdde56afa04"
+  ],
+  ".obsidian/plugins/remember-cursor-position/manifest.json": [
+   "f235c59cccfd448a5392d95280953152fb178f06"
+  ],
+  ".obsidian/plugins/shortcuts-extender/main.js": [
+   "ee7438a3bf3a23ea625c6336bb4862dea1a63b11"
+  ],
+  ".obsidian/plugins/shortcuts-extender/manifest.json": [
+   "9b9109fb842348519629116e6fe6568eb2aa71f6"
+  ],
+  ".obsidian/plugins/templater-obsidian/data.json": [
+   "d710c817bd1eb0931c8de48edd456a8cecdf024a"
+  ],
+  ".obsidian/plugins/templater-obsidian/main.js": [
+   "3d4fd89684df6a043fd6f7396995522f79a4c765"
+  ],
+  ".obsidian/plugins/templater-obsidian/manifest.json": [
+   "b2b3fdb41a80c74851f02674fc1065a570359086"
+  ],
+  ".obsidian/plugins/templater-obsidian/styles.css": [
+   "36aa4fac1ea65dc94a3fba43a0400bb6a7062899"
+  ],
+  ".obsidian/plugins/vault-updater/main.js": [
+   "a86ea452346eb2ac350c51047bbcdc6b71055ec0"
+  ],
+  ".obsidian/plugins/vault-updater/manifest.json": [
+   "420f4de0216d2e1a3e477cf7819297b414894b48"
+  ],
+  ".obsidian/scripts/wordheat_index.py": [
+   "8aa23c023184d5ef4f9bd034e7194ce0a629d0aa"
+  ],
+  ".obsidian/snippets/MCL Gallery Cards.css": [
+   "f416761edb0fb4a0210f215e3a06ed1ecc49dc2f"
+  ],
+  ".obsidian/snippets/MCL Multi Column.css": [
+   "7b0649b81ec557d5b76f17be22701a9758cda859"
+  ],
+  ".obsidian/snippets/MCL Wide Views.css": [
+   "4c5295118f12ad22d357c699fdd033aba68e9cbb"
+  ],
+  ".obsidian/snippets/bases-cards-tweak.css": [
+   "e21f5162f4fc79d4a0b2b5a31871efb38234e413"
+  ],
+  ".obsidian/snippets/centered.css": [
+   "dc326653c4ef4c9c7c1d8721d83d495961a84e53"
+  ],
+  ".obsidian/snippets/compact-tasks.css": [
+   "dbb6d0511e340b63056d0fad2208a33a151a7500"
+  ],
+  ".obsidian/snippets/dataview-compact.css": [
+   "c2b1c6240c928b1ae7678f950aec098d3d52860f"
+  ],
+  ".obsidian/snippets/homepage-columns.css": [
+   "c886f68d070aad84cc0c640d512597c40d09be26"
+  ],
+  ".obsidian/themes/Minimal/manifest.json": [
+   "9079bf70144e9b704970dc2b9b7467f3831267cf"
+  ],
+  ".obsidian/themes/Minimal/theme.css": [
+   "306c92f2681606194a24142a1367a73e194e3e4d"
+  ],
+  ".obsidian/themes/Obsidian Nord/manifest.json": [
+   "2f37ab3e36fb6505b1dfce1563ffb72c22b3f424"
+  ],
+  ".obsidian/themes/Obsidian Nord/theme.css": [
+   "b4a6584ac580fea16369db58075f7d17044357f0"
+  ],
+  ".obsidian/themes/Things/manifest.json": [
+   "fdbcbe4cb1b7dcea89711d4d4b8b5fd92b55e15e"
+  ],
+  ".obsidian/themes/Things/theme.css": [
+   "6dc82f43a7b1834024ff3a7d8df4312639ad50c9"
+  ],
+  ".obsidian/types.json": [
+   "8a218e17430dbd7f459a74a984a8eda0ff9b347b",
+   "bf23b97e95cd9a6dadef333ac5c48cfe82137532",
+   "ef9d3b40821736cfc6b449f5994dbb14ab0036c9"
+  ],
+  ".obsidian/vault-stats.json": [
+   "53be119d601096bf283e7f5a82a7cf3cc577572b",
+   "554dbd489aff119e4356e9c1c1bfd12bdf1288b3",
+   "f262c6b5f472f26fd8f43cdb90feaafa494e1c45",
+   "f3a6b4a5137e7ecd9411c590a8467922b46c6514"
+  ],
+  "1.Rough/0-fleeting.md": [
+   "80f91564f86ebddf6567255ad2a738c804a0b447"
+  ],
+  "1.Rough/README.md": [
+   "7b1fd859a12d3e60b7e075eb165c45ab8b5aeefe"
+  ],
+  "1.Rough/演示.md": [
+   "0b99f768ab5cacd81f2ebab0cb832309a10b66b0"
+  ],
+  "10.Template/README.md": [
+   "4c8599f745373a874a51c0f93c9272ff233a6748",
+   "80ea6d508efe1a38200783e7c820fb3f34ba1449"
+  ],
+  "10.Template/book&movie/book-ch.md": [
+   "613b2e3b4f50113eff0e1d14f29d7cca44ac0093",
+   "cf4ac2b8d25e287902e9e35ea01ada0d28c7b2bc"
+  ],
+  "10.Template/book&movie/book-en.md": [
+   "a116638a12ff914d5666a2f315de5c79d4e52a53",
+   "fe4438f5eecb3bb3e7373df7b94d8954a264b204"
+  ],
+  "10.Template/book&movie/movie-ch.md": [
+   "a3aad844d6a8cd85a085374b5d50344a7face71c",
+   "c2594c2bcd4a476a6cfd06206ceaade57eff13c9"
+  ],
+  "10.Template/book&movie/movie-en.md": [
+   "1aa167a5cff43863ec21669156915fcdce374162",
+   "da4b8f82e0dd71dc4bb69140a9683c3cea698c3d"
+  ],
+  "10.Template/book&movie/阅读记录模板.md": [
+   "c9b3cfb200c603d26e1c801842fcadd9aff3b017"
+  ],
+  "10.Template/projects/project- template.md": [
+   "5a9a71247ff938a61ffba7f9156f34d24f4fbd1d",
+   "fc4e160b01001692fb799bad06b9c86fe0a747ad"
+  ],
+  "10.Template/projects/task - template.md": [
+   "32f767c5ddf5f49c95824312b276e83166b7370e",
+   "b7bceb5cd1ab2dc14c8611f45c5d8d128fe1ec25",
+   "f038ce8e3815fbcedcefeb8b1be0ead27e59ea5d"
+  ],
+  "10.Template/projects/try.md": [
+   "da4f05bccca31d356f2a0e76fc73a24d6bd9b2de"
+  ],
+  "10.Template/todo/daily.md": [
+   "f20c433c61aee5afc7b9b5358256f6a7004eda70"
+  ],
+  "10.Template/todo/weekly.md": [
+   "ede9adb13a1d3165917c1a65fdfb71ff8b6ad0d4"
+  ],
+  "11.Excalidraw/README.md": [
+   "4becd9add4eab6a216740492de6a62fa837d6522"
+  ],
+  "12.skills/README.md": [
+   "45684c409a9154fc4c89da65f00d835ab0c8061d"
+  ],
+  "12.skills/周复盘/SKILL.md": [
+   "f99fd544c6f159a4973fb013fa2ceda24c8afefa"
+  ],
+  "2.Read/README.md": [
+   "81e4c3f5b6344d5d33611b4b9a154feb78622598",
+   "c574b0fed711ed7f763e30fbc2c21e1223b692f8"
+  ],
+  "2.Read/assets/Pasted image 20260624184301.png": [
+   "4ca301554c03ea9b0f76d82df95fd5b0940974a3"
+  ],
+  "2.Read/bases书架.base": [
+   "92cb2a479f39a34025f33d57de30cd8a279668d5"
+  ],
+  "2.Read/bases图书馆.base": [
+   "6092b4cd3836671c85574c7797d41eedb3fe11a6"
+  ],
+  "2.Read/bases影视库.base": [
+   "e2bd9c7403513ac7d2d271e97b6a904ae4dbcab5"
+  ],
+  "2.Read/books/人类简史.md": [
+   "f1d4cb0e7b52bc477c485cf533b06c1b0c5e6ce6"
+  ],
+  "2.Read/books/思考快与慢.md": [
+   "1706359c15d39ceb9bb02d898f9cd7edc94d457b"
+  ],
+  "2.Read/books/纳瓦尔宝典.md": [
+   "30a94e30b05a14c73f7dd4e4334aa713492f22c2"
+  ],
+  "2.Read/douban/0_dimage/人类简史.jpg": [
+   "2d4212bb7e752b70a2e2e5e5ddce36f72c9469bd"
+  ],
+  "2.Read/douban/0_dimage/思考快与慢.jpg": [
+   "12072f09073cd3c9c63fde3012746590f3594e52"
+  ],
+  "2.Read/douban/0_dimage/纳瓦尔宝典.jpg": [
+   "403806534ecf485fa8cc628d40f16cd83ab8783f"
+  ],
+  "2.Read/douban/0_dimage/调音师.jpg": [
+   "2eb2d442df88d5fc4aa4022d125f5d5e3d1df092"
+  ],
+  "2.Read/media-DB/movie/调音师.md": [
+   "837db9153780aa5edb0efc71e9b81e8d1f8c5ce9",
+   "94a39891910181fdfcb6224ed40fe4a82c7bf8b4"
+  ],
+  "2.Read/书架.md": [
+   "103060f4f974bf2b20b5affad526a5b6b537d282",
+   "15be55003998c11b0fb7db2f71ec1474ba90475e"
+  ],
+  "2.Read/观影库.md": [
+   "b8239b21c15ed01b9e2f4a0eae3759853ed3fa64"
+  ],
+  "3.learn/AI/示例-提示词工程入门.md": [
+   "4c7a035583cd8d2691ad622c3384ee2842198164"
+  ],
+  "3.learn/README.md": [
+   "b6d45d5ad5c4d2b7b849bd4423a0d84a9687c623"
+  ],
+  "4.Projects/I.projects/a1.第一个项目.md": [
+   "002cdc3934d374123139f406dd4ce72651a320a7",
+   "ef82e267f44ab52f6189a68b8110cd803078d17a"
+  ],
+  "4.Projects/I.projects/d2.演示项目.md": [
+   "57519c5640f70e9188705dc2e581222ca00a31d1",
+   "be4e40ced86e8eac81ada9c9c5319b7bf0df8808"
+  ],
+  "4.Projects/II.tasks/a1-001-第一个task.md": [
+   "23350df14d338ffa50073a2e995d6b2bc0c86fdb",
+   "4ab88dc001b4195be37aa232b82553c9563057c9",
+   "7150348cc4c267b48d9d7cb41a874b80bad34124"
+  ],
+  "4.Projects/II.tasks/d2-001-演示task.md": [
+   "1aa1cc2edc249153ea49221915a2cd56a1e2bd00"
+  ],
+  "4.Projects/III.dashboard/task总览.md": [
+   "29f2a06c2688f3609091a97453bd2670201f948b"
+  ],
+  "4.Projects/III.dashboard/项目总览.md": [
+   "abb716c19cf9ad917fed2e8f72c94b1aa3a0ad59",
+   "c20cbdb2143db2638d890121dfad10a6415728cc"
+  ],
+  "4.Projects/README.md": [
+   "a5c8af918f5c16e8fcab9dd52ec5a9cad081ffa6"
+  ],
+  "5.todo/0_view/todo list.md": [
+   "d108598ba83bb48462a919edd564664317cf8240"
+  ],
+  "5.todo/0_view/回顾本周.md": [
+   "21d0e9d27acb57d1fe1edf4a79603f533321ec10"
+  ],
+  "5.todo/README.md": [
+   "6c1d4d0fa8ce48fb05104493aa548c4646eaeb21"
+  ],
+  "5.todo/date/2026-06-21.md": [
+   "c3aa2618f7452337a0974aaf6aeb0a511a11484e"
+  ],
+  "5.todo/date/2026-06-26.md": [
+   "ff58710b9f0739b69e600ac83d6ceff7efb4d8b1"
+  ],
+  "5.todo/prompt/周复盘prompt-成长.md": [
+   "a775125426a679045458e02e107794e51b64c485"
+  ],
+  "5.todo/prompt/周复盘prompt-稳定.md": [
+   "48360b6165cca788b1be7f73092d9c893b95d377"
+  ],
+  "5.todo/prompt/周复盘流程.md": [
+   "fa079d1d9731644e432b6bbe9767b7ec6048c753"
+  ],
+  "5.todo/scheduled/schedule-task.md": [
+   "28679c4c1fbc5e86d07af13d26d917e6208e7a2e",
+   "c0f2a155be2424a20b085571db1a98346a6067ae"
+  ],
+  "6.personal/README.md": [
+   "b4a9158f999d46fe00812f60899f3072f97cf6a1",
+   "d190e4ef69bfa0ec1f60d80733707e5e9cfdca6f"
+  ],
+  "6.personal/diary/2026-06-13.md": [
+   "d587ae79256d6c84d962a317a0796551b8a53006"
+  ],
+  "9.备忘/README.md": [
+   "b9ba557eeb79e0e5afff099fec27098fe9eaaffa"
+  ],
+  "9.备忘/示例-快捷键.md": [
+   "40e739efb29edd8a61c70e2271cbb5ba89eed6ca"
+  ],
+  "LICENSE": [
+   "5b855c2cc1f44d88c18174a53e4edf636c2aa9b0"
+  ],
+  "README 使用说明.md": [
+   "cbb9434e8d3ce01662ab9949f7da082aaea24ac6"
+  ],
+  "README.md": [
+   "cbb9434e8d3ce01662ab9949f7da082aaea24ac6",
+   "d63c885e38b4baa1e6d762a8adc59df78d0f8c2f",
+   "ddc6118ed319c4f687e71cdc9ce1ca4e2cfc92bc",
+   "fcfad868c404cbd445f467846b79800882b20d63"
+  ],
+  "assets/Pasted image 20260622133937.png": [
+   "a54d2f5cdd935864b2f8e1b4af44797c785ea0f3"
+  ],
+  "assets/Pasted image 20260626174019.png": [
+   "4b1741179f072cfdadfb3a90d954c8112f7c4426"
+  ],
+  "homepage.md": [
+   "0d16f2e3bd9a3ffa71d96bc415fa603057a29ae9",
+   "2719dafa16b3189cb3a2ca4844ecb8472990f96f",
+   "6f8d0c6e6fffd41fe821dd4bf756d64f2b7dfe71",
+   "83b61a7ee5cdf6e9232df91d5ea1ef8a827b152d"
+  ],
+  "开箱第一件事.md": [
+   "3b7df9d5a46c819d73582ddebd231837f6bb00a6",
+   "6695c701ced0ee25f8b0942c1ef50b22621943c2",
+   "8ed8efe47eee6b7a2061b2ba91097700e009657a",
+   "fa41fb6302d8024206c0baca9dfb878c030c5cb1"
+  ]
+ },
+ "legacyBase": {
+  ".gitignore": {
+   "mode": "file",
+   "sha": "3b2549e178a05806221f033a23998be70c46bf18"
+  },
+  ".obsidian/app.json": {
+   "mode": "json",
+   "sha": "c49eac6ff3a8eab49fb39d98015bfd25c85bbd18"
+  },
+  ".obsidian/appearance.json": {
+   "mode": "json",
+   "sha": "159a1d5b4c46d91edc970cf89d95fc6f6761eddc"
+  },
+  ".obsidian/community-plugins.json": {
+   "mode": "json",
+   "sha": "aeaea4f6efe5d9ee74f67aa42166a22cf85a49a8"
+  },
+  ".obsidian/core-plugins.json": {
+   "mode": "json",
+   "sha": "e2342f1f0016c62214b690409a4614664737c160"
+  },
+  ".obsidian/daily-notes.json": {
+   "mode": "json",
+   "sha": "a2885f3b82a6dffba2fe8e4e729977632cc924f9"
+  },
+  ".obsidian/graph.json": {
+   "mode": "json",
+   "sha": "90a4623c049b2c9afc4382eb4cb981044af3ebd9"
+  },
+  ".obsidian/hotkeys.json": {
+   "mode": "seed",
+   "sha": "29ddc8cca58f009cb737609026b72a67ee2f6a6a"
+  },
+  ".obsidian/page-preview.json": {
+   "mode": "json",
+   "sha": "31a81360d787fa1b5c97d94fe7c125647d7a2a1d"
+  },
+  ".obsidian/plugins/better-word-count/main.js": {
+   "mode": "pkg",
+   "sha": "f31e9cceacce59a90cff5375d530fcf6956afb78"
+  },
+  ".obsidian/plugins/better-word-count/manifest.json": {
+   "mode": "pkg",
+   "sha": "67946aed1f4ce6ce90009404925d60d2afb53ea7"
+  },
+  ".obsidian/plugins/better-word-count/styles.css": {
+   "mode": "pkg",
+   "sha": "dc3503063e4b5d784dcc458d2fd27f5b80d47157"
+  },
+  ".obsidian/plugins/calendar/data.json": {
+   "mode": "json",
+   "sha": "b88b5ed2c062fb5e8d156f9777dafe789f301753"
+  },
+  ".obsidian/plugins/calendar/main.js": {
+   "mode": "pkg",
+   "sha": "ed6cea3c8bb17c873403edaeaa93706f2e68c65b"
+  },
+  ".obsidian/plugins/calendar/manifest.json": {
+   "mode": "pkg",
+   "sha": "028bfa5077de882fa2a945c4917dc08ccd04f906"
+  },
+  ".obsidian/plugins/contribution-graph/LICENSE": {
+   "mode": "file",
+   "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+  },
+  ".obsidian/plugins/contribution-graph/MODIFICATIONS.md": {
+   "mode": "file",
+   "sha": "dc4e187c3ce12a47ca5b11982590d29fa0f184ed"
+  },
+  ".obsidian/plugins/contribution-graph/main.js": {
+   "mode": "pkg",
+   "sha": "bebf903b587ff8bcb8b4b4835c8b3a549a4ab394"
+  },
+  ".obsidian/plugins/contribution-graph/manifest.json": {
+   "mode": "pkg",
+   "sha": "3c9b6b67bb332b746bdb36d9ac6e03c18bac83f5"
+  },
+  ".obsidian/plugins/contribution-graph/styles.css": {
+   "mode": "pkg",
+   "sha": "914a03961df4ba21a00c2f44e83c10b021afb024"
+  },
+  ".obsidian/plugins/dataview/data.json": {
+   "mode": "json",
+   "sha": "a4e8b0ebfaecf38a6cc6742ce452a7992fe9359b"
+  },
+  ".obsidian/plugins/dataview/main.js": {
+   "mode": "pkg",
+   "sha": "898d702aef3658acfb9ea6deaf60ba2b63e26adf"
+  },
+  ".obsidian/plugins/dataview/manifest.json": {
+   "mode": "pkg",
+   "sha": "926b2a6dbedec6fe29fb7a37f8448c4beb376a65"
+  },
+  ".obsidian/plugins/dataview/styles.css": {
+   "mode": "pkg",
+   "sha": "618821aa159c9c801eafe7bd002e0a4253302660"
+  },
+  ".obsidian/plugins/easy-delete-image/main.js": {
+   "mode": "pkg",
+   "sha": "c48ead0908bcbf103a0c14f8c4a5616e90f2bfb7"
+  },
+  ".obsidian/plugins/easy-delete-image/manifest.json": {
+   "mode": "pkg",
+   "sha": "abab678e76ffdbade9b2f92099568cca82614aec"
+  },
+  ".obsidian/plugins/homepage/data.json": {
+   "mode": "json",
+   "sha": "460db72a7e8072548ec6b2da6775900fe94075a7"
+  },
+  ".obsidian/plugins/homepage/main.js": {
+   "mode": "pkg",
+   "sha": "7555b93ba41b974c13dbf6ab1f7ae762e3755810"
+  },
+  ".obsidian/plugins/homepage/manifest.json": {
+   "mode": "pkg",
+   "sha": "330a80ce3bbb4826cee8597323c016426dcb8b9c"
+  },
+  ".obsidian/plugins/homepage/styles.css": {
+   "mode": "pkg",
+   "sha": "f190b08d7b3c0ed36fd714a9e990df15dc4b8ca9"
+  },
+  ".obsidian/plugins/inline-task-edit/main.js": {
+   "mode": "pkg",
+   "sha": "2047917b3cc0132d0a8da0b91709eb27195cc832"
+  },
+  ".obsidian/plugins/inline-task-edit/manifest.json": {
+   "mode": "pkg",
+   "sha": "4115c7c469e4078e36191d4fb73bbf9c180cf095"
+  },
+  ".obsidian/plugins/inline-task-edit/styles.css": {
+   "mode": "pkg",
+   "sha": "49eebb3cebaaae5a1b62757d5bbe968e4517c575"
+  },
+  ".obsidian/plugins/jz-paste-optimizer/main.js": {
+   "mode": "pkg",
+   "sha": "9177230fa75f18aaf34f5fdead4f13a8cc66c8d1"
+  },
+  ".obsidian/plugins/jz-paste-optimizer/manifest.json": {
+   "mode": "pkg",
+   "sha": "1a8727bced2c039b3554597ab237caa999530c4d"
+  },
+  ".obsidian/plugins/learning-system/data.json": {
+   "mode": "json",
+   "sha": "4845c77d9e2a5349720a44edc46b150fc5d88945"
+  },
+  ".obsidian/plugins/learning-system/main.js": {
+   "mode": "pkg",
+   "sha": "abdc08be961ebf2625ee12f818e32f94cc935100"
+  },
+  ".obsidian/plugins/learning-system/manifest.json": {
+   "mode": "pkg",
+   "sha": "9756ad3489b8d96c4e98c0b048bd6042ee436d1d"
+  },
+  ".obsidian/plugins/learning-system/styles.css": {
+   "mode": "pkg",
+   "sha": "37332285ac1eace471df88f1bd58d97f3d22b1e8"
+  },
+  ".obsidian/plugins/mousewheel-image-zoom/main.js": {
+   "mode": "pkg",
+   "sha": "742e4d746e7aabfd45a1003d91844a86afc568c7"
+  },
+  ".obsidian/plugins/mousewheel-image-zoom/manifest.json": {
+   "mode": "pkg",
+   "sha": "be88de8cea23f4548050d2686f593b74c6f338b1"
+  },
+  ".obsidian/plugins/obsidian-book-search-plugin/data.json": {
+   "mode": "json",
+   "sha": "88373b11886dccd6530f4082476364d09e9616e2"
+  },
+  ".obsidian/plugins/obsidian-book-search-plugin/main.js": {
+   "mode": "pkg",
+   "sha": "030e76822693928c71549e62923e77b975fde2bd"
+  },
+  ".obsidian/plugins/obsidian-book-search-plugin/manifest.json": {
+   "mode": "pkg",
+   "sha": "d7ae7d5edbf82db7d60c78ba3e11915177eeb10a"
+  },
+  ".obsidian/plugins/obsidian-book-search-plugin/styles.css": {
+   "mode": "pkg",
+   "sha": "99393130151d27b3da0dcfa71ef0cb380958b5ea"
+  },
+  ".obsidian/plugins/obsidian-douban-plugin/data.json": {
+   "mode": "json",
+   "sha": "e078fa6d2e324916ed8877a60392eb72edaa5c32"
+  },
+  ".obsidian/plugins/obsidian-douban-plugin/main.js": {
+   "mode": "pkg",
+   "sha": "d6a1d0d92b4cd2c806976ae183ce47ae28293ac6"
+  },
+  ".obsidian/plugins/obsidian-douban-plugin/manifest.json": {
+   "mode": "pkg",
+   "sha": "6e682a5a76a0688452efddc650752a86b482c997"
+  },
+  ".obsidian/plugins/obsidian-douban-plugin/styles.css": {
+   "mode": "pkg",
+   "sha": "6974aa229534fd6536c90b49f9b181aa24b40311"
+  },
+  ".obsidian/plugins/obsidian-echarts/main.js": {
+   "mode": "pkg",
+   "sha": "10333b19228d5c0d1a5589e17c8963c8af5bfb11"
+  },
+  ".obsidian/plugins/obsidian-echarts/manifest.json": {
+   "mode": "pkg",
+   "sha": "3f2379e53124f0ad40a3d11caa42ee752c9313e0"
+  },
+  ".obsidian/plugins/obsidian-excalidraw-plugin/main.js": {
+   "mode": "pkg",
+   "sha": "fdcd82cfdc6082af6e24a59d3133e94f2e60a9e6"
+  },
+  ".obsidian/plugins/obsidian-excalidraw-plugin/manifest.json": {
+   "mode": "pkg",
+   "sha": "52ac6098ac97c0575afb35bfdb2d72c0a6094ab2"
+  },
+  ".obsidian/plugins/obsidian-excalidraw-plugin/styles.css": {
+   "mode": "pkg",
+   "sha": "fde6326ffc4827a76b38e244e30ea88490da07d9"
+  },
+  ".obsidian/plugins/obsidian-focus-plugin/data.json": {
+   "mode": "json",
+   "sha": "da5f8f0d64849e09a3664f6a272e7fa7a472711c"
+  },
+  ".obsidian/plugins/obsidian-focus-plugin/main.js": {
+   "mode": "pkg",
+   "sha": "a59705dc9d50e2e98dffcfd902a407d6571f739f"
+  },
+  ".obsidian/plugins/obsidian-focus-plugin/manifest.json": {
+   "mode": "pkg",
+   "sha": "c1e930c6cbd6fc6cbe5d83244b356df0264df051"
+  },
+  ".obsidian/plugins/obsidian-focus-plugin/styles.css": {
+   "mode": "pkg",
+   "sha": "47724d2d6d16ebadd47f18324c5131f6bbd26b45"
+  },
+  ".obsidian/plugins/obsidian-icon-folder/data.json": {
+   "mode": "json",
+   "sha": "743a2187cf5b088faa21a1bde42b3b129d227a56"
+  },
+  ".obsidian/plugins/obsidian-icon-folder/main.js": {
+   "mode": "pkg",
+   "sha": "271b2ffc65b8f2e54b070d1d7264ef6d55bc710b"
+  },
+  ".obsidian/plugins/obsidian-icon-folder/manifest.json": {
+   "mode": "pkg",
+   "sha": "6e916c337c0e72d7b9f3d827275dec15f5cc02c1"
+  },
+  ".obsidian/plugins/obsidian-icon-folder/styles.css": {
+   "mode": "pkg",
+   "sha": "a74fdd4404330d47dc6392a3bdfffffaa53d4c2a"
+  },
+  ".obsidian/plugins/obsidian-media-db-plugin/main.js": {
+   "mode": "pkg",
+   "sha": "f4f04e154e6798e48dd4e53e35c6ced00e16dc32"
+  },
+  ".obsidian/plugins/obsidian-media-db-plugin/manifest.json": {
+   "mode": "pkg",
+   "sha": "a8d101ff53df2782c8cb2be9e157fed22ab5f547"
+  },
+  ".obsidian/plugins/obsidian-media-db-plugin/styles.css": {
+   "mode": "pkg",
+   "sha": "6d4bb8da2c7250636bf35db1960033d8c6672621"
+  },
+  ".obsidian/plugins/obsidian-mindmap-nextgen/data.json": {
+   "mode": "json",
+   "sha": "8396962843680e3b29acc27e5d39488dcaf6adcf"
+  },
+  ".obsidian/plugins/obsidian-mindmap-nextgen/main.js": {
+   "mode": "pkg",
+   "sha": "199242fd874875e150870f640a1ff5b4d805ccdc"
+  },
+  ".obsidian/plugins/obsidian-mindmap-nextgen/manifest.json": {
+   "mode": "pkg",
+   "sha": "28dfd5557311d284c50682c7aaf13855f6f5b246"
+  },
+  ".obsidian/plugins/obsidian-mindmap-nextgen/styles.css": {
+   "mode": "pkg",
+   "sha": "6b5624e87887e9df220d6e6e5263c9e07f42d7a5"
+  },
+  ".obsidian/plugins/obsidian-quiet-outline/data.json": {
+   "mode": "json",
+   "sha": "d1f582b39e4f0e0be65853c36ef37e94589e8b14"
+  },
+  ".obsidian/plugins/obsidian-quiet-outline/main.js": {
+   "mode": "pkg",
+   "sha": "f7ebc009873da226e235b6883ecd2426c4c4527a"
+  },
+  ".obsidian/plugins/obsidian-quiet-outline/manifest.json": {
+   "mode": "pkg",
+   "sha": "e487b597e2379867a6e5a0a04c74c94e62537594"
+  },
+  ".obsidian/plugins/obsidian-quiet-outline/styles.css": {
+   "mode": "pkg",
+   "sha": "3e3b66b0f19f61df06faf4a2ce8cbdb1e6d74c7a"
+  },
+  ".obsidian/plugins/obsidian-tasks-plugin/data.json": {
+   "mode": "json",
+   "sha": "c0313cd831d4aba808aaeb669546739359a0ec8e"
+  },
+  ".obsidian/plugins/obsidian-tasks-plugin/main.js": {
+   "mode": "pkg",
+   "sha": "4b1517b9d41833aaddf5bd6483dbe81c18dd7771"
+  },
+  ".obsidian/plugins/obsidian-tasks-plugin/manifest.json": {
+   "mode": "pkg",
+   "sha": "3dc855f650acd243d179d40dc44d47a56ac2534d"
+  },
+  ".obsidian/plugins/obsidian-tasks-plugin/styles.css": {
+   "mode": "pkg",
+   "sha": "d2af268d586ff1f2e57717f4b298bff8daf78b98"
+  },
+  ".obsidian/plugins/obsidian-title-serial-number-plugin/main.js": {
+   "mode": "pkg",
+   "sha": "bedef1bc8adfe299a6b5ed53cc2969972ef9160b"
+  },
+  ".obsidian/plugins/obsidian-title-serial-number-plugin/manifest.json": {
+   "mode": "pkg",
+   "sha": "89829112a77fc3bfca7e459ec80e63a3020a3481"
+  },
+  ".obsidian/plugins/open-in-new-tab/main.js": {
+   "mode": "pkg",
+   "sha": "447b1e21dc5032bc15c7fdee6e7407d0c5c31b6b"
+  },
+  ".obsidian/plugins/open-in-new-tab/manifest.json": {
+   "mode": "pkg",
+   "sha": "1e26430fbe811480b24ab71e21758260296aff38"
+  },
+  ".obsidian/plugins/oz-clear-unused-images/main.js": {
+   "mode": "pkg",
+   "sha": "1bacc1651534361ee1a6f6218db97f09c510354b"
+  },
+  ".obsidian/plugins/oz-clear-unused-images/manifest.json": {
+   "mode": "pkg",
+   "sha": "2652ce4c34aec7f1f678d525a371c4ed18f5c9f9"
+  },
+  ".obsidian/plugins/oz-clear-unused-images/styles.css": {
+   "mode": "pkg",
+   "sha": "79bc1745b63d201806eefb0ed99026d706140e3f"
+  },
+  ".obsidian/plugins/periodic-notes/data.json": {
+   "mode": "json",
+   "sha": "6342a6b45a6adc9cf29dafc53ef6f0904ffbb384"
+  },
+  ".obsidian/plugins/periodic-notes/main.js": {
+   "mode": "pkg",
+   "sha": "64325e69b78111c3d0d6f12a724dd0a0dc430ba4"
+  },
+  ".obsidian/plugins/periodic-notes/manifest.json": {
+   "mode": "pkg",
+   "sha": "f34394e8cc8ef3cc82966cfd2e8560942e630e0b"
+  },
+  ".obsidian/plugins/periodic-notes/styles.css": {
+   "mode": "pkg",
+   "sha": "d388888f731ad3ea9654b2d9655ac8b2185e6778"
+  },
+  ".obsidian/plugins/quickadd/main.js": {
+   "mode": "pkg",
+   "sha": "ad612cf76c646246a3720043eb062f59ae64141d"
+  },
+  ".obsidian/plugins/quickadd/manifest.json": {
+   "mode": "pkg",
+   "sha": "6d8e7ea3e9d2b5ce44273f913496a8f9ec1c3b84"
+  },
+  ".obsidian/plugins/quickadd/styles.css": {
+   "mode": "pkg",
+   "sha": "42e8274b5372c619843f39329be03b8200b1ecba"
+  },
+  ".obsidian/plugins/recent-files-obsidian/main.js": {
+   "mode": "pkg",
+   "sha": "a70e7604043e4fcafdfd8ab424dbf51d6f70509f"
+  },
+  ".obsidian/plugins/recent-files-obsidian/manifest.json": {
+   "mode": "pkg",
+   "sha": "3f5c64b2cd30f5219a17c4fa28b7d003f2e1bf7b"
+  },
+  ".obsidian/plugins/recent-files-obsidian/styles.css": {
+   "mode": "pkg",
+   "sha": "87e0c2d98f37cd7129fe10368af75b423ea22230"
+  },
+  ".obsidian/plugins/remember-cursor-position/main.js": {
+   "mode": "pkg",
+   "sha": "bac766ba00488016d3c5dad7e1f07cdde56afa04"
+  },
+  ".obsidian/plugins/remember-cursor-position/manifest.json": {
+   "mode": "pkg",
+   "sha": "f235c59cccfd448a5392d95280953152fb178f06"
+  },
+  ".obsidian/plugins/shortcuts-extender/main.js": {
+   "mode": "pkg",
+   "sha": "ee7438a3bf3a23ea625c6336bb4862dea1a63b11"
+  },
+  ".obsidian/plugins/shortcuts-extender/manifest.json": {
+   "mode": "pkg",
+   "sha": "9b9109fb842348519629116e6fe6568eb2aa71f6"
+  },
+  ".obsidian/plugins/templater-obsidian/data.json": {
+   "mode": "json",
+   "sha": "d710c817bd1eb0931c8de48edd456a8cecdf024a"
+  },
+  ".obsidian/plugins/templater-obsidian/main.js": {
+   "mode": "pkg",
+   "sha": "3d4fd89684df6a043fd6f7396995522f79a4c765"
+  },
+  ".obsidian/plugins/templater-obsidian/manifest.json": {
+   "mode": "pkg",
+   "sha": "b2b3fdb41a80c74851f02674fc1065a570359086"
+  },
+  ".obsidian/plugins/templater-obsidian/styles.css": {
+   "mode": "pkg",
+   "sha": "36aa4fac1ea65dc94a3fba43a0400bb6a7062899"
+  },
+  ".obsidian/snippets/MCL Gallery Cards.css": {
+   "mode": "file",
+   "sha": "f416761edb0fb4a0210f215e3a06ed1ecc49dc2f"
+  },
+  ".obsidian/snippets/MCL Multi Column.css": {
+   "mode": "file",
+   "sha": "7b0649b81ec557d5b76f17be22701a9758cda859"
+  },
+  ".obsidian/snippets/MCL Wide Views.css": {
+   "mode": "file",
+   "sha": "4c5295118f12ad22d357c699fdd033aba68e9cbb"
+  },
+  ".obsidian/snippets/bases-cards-tweak.css": {
+   "mode": "file",
+   "sha": "e21f5162f4fc79d4a0b2b5a31871efb38234e413"
+  },
+  ".obsidian/snippets/centered.css": {
+   "mode": "file",
+   "sha": "dc326653c4ef4c9c7c1d8721d83d495961a84e53"
+  },
+  ".obsidian/snippets/compact-tasks.css": {
+   "mode": "file",
+   "sha": "dbb6d0511e340b63056d0fad2208a33a151a7500"
+  },
+  ".obsidian/snippets/dataview-compact.css": {
+   "mode": "file",
+   "sha": "c2b1c6240c928b1ae7678f950aec098d3d52860f"
+  },
+  ".obsidian/snippets/homepage-columns.css": {
+   "mode": "file",
+   "sha": "c886f68d070aad84cc0c640d512597c40d09be26"
+  },
+  ".obsidian/themes/Minimal/manifest.json": {
+   "mode": "pkg",
+   "sha": "9079bf70144e9b704970dc2b9b7467f3831267cf"
+  },
+  ".obsidian/themes/Minimal/theme.css": {
+   "mode": "pkg",
+   "sha": "306c92f2681606194a24142a1367a73e194e3e4d"
+  },
+  ".obsidian/types.json": {
+   "mode": "json",
+   "sha": "8a218e17430dbd7f459a74a984a8eda0ff9b347b"
+  },
+  ".obsidian/vault-stats.json": {
+   "mode": "seed",
+   "sha": "53be119d601096bf283e7f5a82a7cf3cc577572b"
+  },
+  "1.Rough/0-fleeting.md": {
+   "mode": "file",
+   "sha": "80f91564f86ebddf6567255ad2a738c804a0b447"
+  },
+  "1.Rough/README.md": {
+   "mode": "file",
+   "sha": "7b1fd859a12d3e60b7e075eb165c45ab8b5aeefe"
+  },
+  "1.Rough/演示.md": {
+   "mode": "file",
+   "sha": "0b99f768ab5cacd81f2ebab0cb832309a10b66b0"
+  },
+  "10.Template/README.md": {
+   "mode": "file",
+   "sha": "4c8599f745373a874a51c0f93c9272ff233a6748"
+  },
+  "10.Template/book&movie/book-ch.md": {
+   "mode": "file",
+   "sha": "613b2e3b4f50113eff0e1d14f29d7cca44ac0093"
+  },
+  "10.Template/book&movie/book-en.md": {
+   "mode": "file",
+   "sha": "fe4438f5eecb3bb3e7373df7b94d8954a264b204"
+  },
+  "10.Template/book&movie/movie-ch.md": {
+   "mode": "file",
+   "sha": "c2594c2bcd4a476a6cfd06206ceaade57eff13c9"
+  },
+  "10.Template/book&movie/movie-en.md": {
+   "mode": "file",
+   "sha": "da4b8f82e0dd71dc4bb69140a9683c3cea698c3d"
+  },
+  "10.Template/book&movie/阅读记录模板.md": {
+   "mode": "file",
+   "sha": "c9b3cfb200c603d26e1c801842fcadd9aff3b017"
+  },
+  "10.Template/projects/project- template.md": {
+   "mode": "file",
+   "sha": "fc4e160b01001692fb799bad06b9c86fe0a747ad"
+  },
+  "10.Template/projects/task - template.md": {
+   "mode": "file",
+   "sha": "f038ce8e3815fbcedcefeb8b1be0ead27e59ea5d"
+  },
+  "10.Template/projects/try.md": {
+   "mode": "file",
+   "sha": "da4f05bccca31d356f2a0e76fc73a24d6bd9b2de"
+  },
+  "10.Template/todo/daily.md": {
+   "mode": "file",
+   "sha": "f20c433c61aee5afc7b9b5358256f6a7004eda70"
+  },
+  "11.Excalidraw/README.md": {
+   "mode": "file",
+   "sha": "4becd9add4eab6a216740492de6a62fa837d6522"
+  },
+  "12.skills/README.md": {
+   "mode": "file",
+   "sha": "45684c409a9154fc4c89da65f00d835ab0c8061d"
+  },
+  "12.skills/周复盘/SKILL.md": {
+   "mode": "file",
+   "sha": "f99fd544c6f159a4973fb013fa2ceda24c8afefa"
+  },
+  "2.Read/README.md": {
+   "mode": "file",
+   "sha": "81e4c3f5b6344d5d33611b4b9a154feb78622598"
+  },
+  "2.Read/assets/Pasted image 20260624184301.png": {
+   "mode": "file",
+   "sha": "4ca301554c03ea9b0f76d82df95fd5b0940974a3"
+  },
+  "2.Read/bases书架.base": {
+   "mode": "file",
+   "sha": "92cb2a479f39a34025f33d57de30cd8a279668d5"
+  },
+  "2.Read/books/人类简史.md": {
+   "mode": "file",
+   "sha": "f1d4cb0e7b52bc477c485cf533b06c1b0c5e6ce6"
+  },
+  "2.Read/books/思考快与慢.md": {
+   "mode": "file",
+   "sha": "1706359c15d39ceb9bb02d898f9cd7edc94d457b"
+  },
+  "2.Read/books/纳瓦尔宝典.md": {
+   "mode": "file",
+   "sha": "30a94e30b05a14c73f7dd4e4334aa713492f22c2"
+  },
+  "2.Read/douban/0_dimage/人类简史.jpg": {
+   "mode": "file",
+   "sha": "2d4212bb7e752b70a2e2e5e5ddce36f72c9469bd"
+  },
+  "2.Read/douban/0_dimage/思考快与慢.jpg": {
+   "mode": "file",
+   "sha": "12072f09073cd3c9c63fde3012746590f3594e52"
+  },
+  "2.Read/douban/0_dimage/纳瓦尔宝典.jpg": {
+   "mode": "file",
+   "sha": "403806534ecf485fa8cc628d40f16cd83ab8783f"
+  },
+  "2.Read/douban/0_dimage/调音师.jpg": {
+   "mode": "file",
+   "sha": "2eb2d442df88d5fc4aa4022d125f5d5e3d1df092"
+  },
+  "2.Read/media-DB/movie/调音师.md": {
+   "mode": "file",
+   "sha": "94a39891910181fdfcb6224ed40fe4a82c7bf8b4"
+  },
+  "2.Read/书架.md": {
+   "mode": "file",
+   "sha": "15be55003998c11b0fb7db2f71ec1474ba90475e"
+  },
+  "2.Read/观影库.md": {
+   "mode": "file",
+   "sha": "b8239b21c15ed01b9e2f4a0eae3759853ed3fa64"
+  },
+  "3.learn/AI/示例-提示词工程入门.md": {
+   "mode": "file",
+   "sha": "4c7a035583cd8d2691ad622c3384ee2842198164"
+  },
+  "3.learn/README.md": {
+   "mode": "file",
+   "sha": "b6d45d5ad5c4d2b7b849bd4423a0d84a9687c623"
+  },
+  "4.Projects/I.projects/a1.第一个项目.md": {
+   "mode": "file",
+   "sha": "ef82e267f44ab52f6189a68b8110cd803078d17a"
+  },
+  "4.Projects/I.projects/d2.演示项目.md": {
+   "mode": "file",
+   "sha": "57519c5640f70e9188705dc2e581222ca00a31d1"
+  },
+  "4.Projects/II.tasks/a1-001-第一个task.md": {
+   "mode": "file",
+   "sha": "23350df14d338ffa50073a2e995d6b2bc0c86fdb"
+  },
+  "4.Projects/II.tasks/d2-001-演示task.md": {
+   "mode": "file",
+   "sha": "1aa1cc2edc249153ea49221915a2cd56a1e2bd00"
+  },
+  "4.Projects/III.dashboard/task总览.md": {
+   "mode": "file",
+   "sha": "29f2a06c2688f3609091a97453bd2670201f948b"
+  },
+  "4.Projects/III.dashboard/项目总览.md": {
+   "mode": "file",
+   "sha": "c20cbdb2143db2638d890121dfad10a6415728cc"
+  },
+  "4.Projects/README.md": {
+   "mode": "file",
+   "sha": "a5c8af918f5c16e8fcab9dd52ec5a9cad081ffa6"
+  },
+  "5.todo/0_view/todo list.md": {
+   "mode": "file",
+   "sha": "d108598ba83bb48462a919edd564664317cf8240"
+  },
+  "5.todo/0_view/回顾本周.md": {
+   "mode": "file",
+   "sha": "21d0e9d27acb57d1fe1edf4a79603f533321ec10"
+  },
+  "5.todo/README.md": {
+   "mode": "file",
+   "sha": "6c1d4d0fa8ce48fb05104493aa548c4646eaeb21"
+  },
+  "5.todo/date/2026-06-21.md": {
+   "mode": "file",
+   "sha": "c3aa2618f7452337a0974aaf6aeb0a511a11484e"
+  },
+  "5.todo/date/2026-06-26.md": {
+   "mode": "file",
+   "sha": "ff58710b9f0739b69e600ac83d6ceff7efb4d8b1"
+  },
+  "5.todo/prompt/周复盘prompt-成长.md": {
+   "mode": "file",
+   "sha": "a775125426a679045458e02e107794e51b64c485"
+  },
+  "5.todo/prompt/周复盘prompt-稳定.md": {
+   "mode": "file",
+   "sha": "48360b6165cca788b1be7f73092d9c893b95d377"
+  },
+  "5.todo/prompt/周复盘流程.md": {
+   "mode": "file",
+   "sha": "fa079d1d9731644e432b6bbe9767b7ec6048c753"
+  },
+  "5.todo/scheduled/schedule-task.md": {
+   "mode": "file",
+   "sha": "c0f2a155be2424a20b085571db1a98346a6067ae"
+  },
+  "6.personal/README.md": {
+   "mode": "file",
+   "sha": "b4a9158f999d46fe00812f60899f3072f97cf6a1"
+  },
+  "6.personal/diary/2026-06-13.md": {
+   "mode": "file",
+   "sha": "d587ae79256d6c84d962a317a0796551b8a53006"
+  },
+  "9.备忘/README.md": {
+   "mode": "file",
+   "sha": "b9ba557eeb79e0e5afff099fec27098fe9eaaffa"
+  },
+  "9.备忘/示例-快捷键.md": {
+   "mode": "file",
+   "sha": "40e739efb29edd8a61c70e2271cbb5ba89eed6ca"
+  },
+  "LICENSE": {
+   "mode": "file",
+   "sha": "5b855c2cc1f44d88c18174a53e4edf636c2aa9b0"
+  },
+  "README.md": {
+   "mode": "file",
+   "sha": "d63c885e38b4baa1e6d762a8adc59df78d0f8c2f"
+  },
+  "homepage.md": {
+   "mode": "file",
+   "sha": "83b61a7ee5cdf6e9232df91d5ea1ef8a827b152d"
+  },
+  "开箱第一件事.md": {
+   "mode": "file",
+   "sha": "6695c701ced0ee25f8b0942c1ef50b22621943c2"
+  }
+ },
+ "notes": "- 新增「检查模板库更新」:以后出新版在库里一键更新，不动你的笔记\n- 书影库换成 Bases 版的「图书馆」和「影视库」,旧的 bases书架 不再使用\n- 首页热力图改成按每天写了多少字统计\n- 在项目页里新建任务，自动带上项目编号，不用再手动输入\n- 项目页的任务表和进度统计改成通用写法，复制到新项目页直接能用\n- 任务页的 try 记录插入后立刻显示\n- 学习插件的思维导图在手机上不再误触侧滑",
+ "pkgs": {
+  ".obsidian/plugins/better-word-count": "0.10.1",
+  ".obsidian/plugins/calendar": "1.5.10",
+  ".obsidian/plugins/contribution-graph": "0.10.0",
+  ".obsidian/plugins/dataview": "0.5.68",
+  ".obsidian/plugins/easy-delete-image": "0.0.1",
+  ".obsidian/plugins/editable-cards": "0.1.0",
+  ".obsidian/plugins/homepage": "4.4.0",
+  ".obsidian/plugins/inline-task-edit": "0.1.0",
+  ".obsidian/plugins/jz-paste-optimizer": "1.0.0",
+  ".obsidian/plugins/learning-system": "0.2.1",
+  ".obsidian/plugins/mousewheel-image-zoom": "1.0.22",
+  ".obsidian/plugins/obsidian-book-search-plugin": "0.7.5",
+  ".obsidian/plugins/obsidian-douban-plugin": "2.3.1",
+  ".obsidian/plugins/obsidian-echarts": "0.0.3",
+  ".obsidian/plugins/obsidian-excalidraw-plugin": "2.12.4",
+  ".obsidian/plugins/obsidian-focus-plugin": "1.3.2",
+  ".obsidian/plugins/obsidian-icon-folder": "2.14.7",
+  ".obsidian/plugins/obsidian-media-db-plugin": "0.8.0",
+  ".obsidian/plugins/obsidian-mindmap-nextgen": "1.15.1",
+  ".obsidian/plugins/obsidian-quiet-outline": "0.4.4",
+  ".obsidian/plugins/obsidian-tasks-plugin": "7.22.0",
+  ".obsidian/plugins/obsidian-title-serial-number-plugin": "0.0.2",
+  ".obsidian/plugins/open-in-new-tab": "1.0.9",
+  ".obsidian/plugins/oz-clear-unused-images": "1.1.1",
+  ".obsidian/plugins/periodic-notes": "0.0.17",
+  ".obsidian/plugins/quickadd": "2.12.0",
+  ".obsidian/plugins/recent-files-obsidian": "1.7.4",
+  ".obsidian/plugins/remember-cursor-position": "1.0.9",
+  ".obsidian/plugins/shortcuts-extender": "2.2.0",
+  ".obsidian/plugins/templater-obsidian": "2.16.2",
+  ".obsidian/plugins/vault-updater": "1.0.0",
+  ".obsidian/themes/Minimal": "7.7.19"
+ },
+ "ref": "a8d6c2f7157f14dfc147c7b1c5eab20f41889dae",
+ "repo": "jady21a/obsidian-workflow-vault",
+ "schema": 1,
+ "version": "1.1.0"
+}
